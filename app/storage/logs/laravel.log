@@ -1,0 +1,891 @@
+[2015-01-15 10:22:15] production.ERROR: exception 'ErrorException' with message 'include(): http:// wrapper is disabled in the server configuration by allow_url_include=0' in C:\xampp\htdocs\Cafevn\app\routes.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(20): Illuminate\Exception\Handler->handleError(2, 'include(): http...', 'C:\xampp\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\Cafevn\app\routes.php(20): {closure}()
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#13 C:\xampp\htdocs\Cafevn\index.php(67): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2015-01-15 10:23:01] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message '{closure}(): Failed opening required 'http://localhost/Cafevn/assets/simple_html_dom.php' (include_path='C:\xampp\htdocs\Cafevn\vendor/phpseclib/phpseclib/phpseclib;.;C:\xampp\php\PEAR')' in C:\xampp\htdocs\Cafevn\app\routes.php:20
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 10:23:29] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message '{closure}(): Failed opening required 'http://localhost/Cafevn/public/assets/simple_html_dom.php' (include_path='C:\xampp\htdocs\Cafevn\vendor/phpseclib/phpseclib/phpseclib;.;C:\xampp\php\PEAR')' in C:\xampp\htdocs\Cafevn\app\routes.php:20
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 10:28:34] production.ERROR: exception 'ErrorException' with message 'include(): http:// wrapper is disabled in the server configuration by allow_url_include=0' in C:\xampp\htdocs\Cafevn\app\routes.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(20): Illuminate\Exception\Handler->handleError(2, 'include(): http...', 'C:\xampp\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\Cafevn\app\routes.php(20): {closure}()
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#13 C:\xampp\htdocs\Cafevn\index.php(67): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2015-01-15 10:29:26] production.ERROR: exception 'ErrorException' with message 'include(): http:// wrapper is disabled in the server configuration by allow_url_include=0' in C:\xampp\htdocs\Cafevn\app\routes.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(20): Illuminate\Exception\Handler->handleError(2, 'include(): http...', 'C:\xampp\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\Cafevn\app\routes.php(20): {closure}()
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#13 C:\xampp\htdocs\Cafevn\index.php(67): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2015-01-15 10:31:44] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function file_get_html()' in C:\xampp\htdocs\Cafevn\app\routes.php:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 10:32:47] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function file_get_html()' in C:\xampp\htdocs\Cafevn\app\routes.php:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 10:33:11] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function file_get_html()' in C:\xampp\htdocs\Cafevn\app\routes.php:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 10:33:55] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function file_get_html()' in C:\xampp\htdocs\Cafevn\app\routes.php:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 10:40:44] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message '{closure}(): Failed opening required 'C:\xampp\htdocs\Cafevn\app/public/assets/simple_html_dom.php' (include_path='C:\xampp\htdocs\Cafevn\vendor/phpseclib/phpseclib/phpseclib;.;C:\xampp\php\PEAR')' in C:\xampp\htdocs\Cafevn\app\routes.php:20
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 11:02:07] production.ERROR: exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in C:\xampp\htdocs\Cafevn\app\routes.php:31
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(31): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', 'C:\xampp\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\Cafevn\app\routes.php(38): getPlace(Object(simple_html_dom))
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#13 C:\xampp\htdocs\Cafevn\index.php(67): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2015-01-15 11:04:27] production.ERROR: exception 'ErrorException' with message 'Undefined index: style' in C:\xampp\htdocs\Cafevn\app\assets\simple_html_dom.php:615
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\assets\simple_html_dom.php(615): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', 'C:\xampp\htdocs...', 615, Array)
+#1 C:\xampp\htdocs\Cafevn\app\assets\simple_html_dom.php(526): simple_html_dom_node->seek(Array, Array, false)
+#2 C:\xampp\htdocs\Cafevn\app\assets\simple_html_dom.php(1113): simple_html_dom_node->find('.ultisize[!styl...', NULL, false)
+#3 C:\xampp\htdocs\Cafevn\app\routes.php(31): simple_html_dom->find('.ultisize[!styl...')
+#4 C:\xampp\htdocs\Cafevn\app\routes.php(38): getPlace(Object(simple_html_dom))
+#5 [internal function]: {closure}()
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\Cafevn\index.php(67): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2015-01-15 12:56:13] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Servives' not found' in C:\xampp\htdocs\Cafevn\app\routes.php:33
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 12:56:30] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Servive' not found' in C:\xampp\htdocs\Cafevn\app\routes.php:33
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 12:56:39] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cafegd.servives' doesn't exist' in C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php:369
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(369): PDO->prepare('insert into `se...')
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `se...', Array)
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `se...', Array, Object(Closure))
+#3 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `se...', Array, Object(Closure))
+#4 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `se...', Array)
+#5 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1880): Illuminate\Database\Connection->insert('insert into `se...', Array)
+#6 C:\xampp\htdocs\Cafevn\app\routes.php(35): Illuminate\Database\Query\Builder->insert(Array)
+#7 C:\xampp\htdocs\Cafevn\app\routes.php(42): getPlace(Object(simple_html_dom))
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\Cafevn\index.php(67): Illuminate\Foundation\Application->run()
+#20 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cafegd.servives' doesn't exist (SQL: insert into `servives` (`name`) values (                       Internet Wifi                   ))' in C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php:625
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `se...', Array, Object(Closure))
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `se...', Array, Object(Closure))
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `se...', Array)
+#3 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1880): Illuminate\Database\Connection->insert('insert into `se...', Array)
+#4 C:\xampp\htdocs\Cafevn\app\routes.php(35): Illuminate\Database\Query\Builder->insert(Array)
+#5 C:\xampp\htdocs\Cafevn\app\routes.php(42): getPlace(Object(simple_html_dom))
+#6 [internal function]: {closure}()
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\Cafevn\index.php(67): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2015-01-15 13:28:00] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list'' in C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php:369
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(369): PDO->prepare('insert into `se...')
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `se...', Array)
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `se...', Array, Object(Closure))
+#3 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `se...', Array, Object(Closure))
+#4 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `se...', Array)
+#5 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `se...', Array)
+#6 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `se...', Array, 'id')
+#7 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(935): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7277): Illuminate\Database\Eloquent\Model->save()
+#14 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7254): Illuminate\Database\Eloquent\Model->getRelationshipFromMethod('save', 'save')
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7480): Illuminate\Database\Eloquent\Model->getAttribute('save')
+#16 C:\xampp\htdocs\Cafevn\app\routes.php(40): Illuminate\Database\Eloquent\Model->__get('save')
+#17 C:\xampp\htdocs\Cafevn\app\routes.php(47): getPlace(Object(simple_html_dom))
+#18 [internal function]: {closure}()
+#19 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#20 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#25 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#26 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#27 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#28 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#29 C:\xampp\htdocs\Cafevn\index.php(67): Illuminate\Foundation\Application->run()
+#30 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' (SQL: insert into `services` (`name`, `updated_at`, `created_at`) values (                       Internet Wifi                   , 2015-01-15 13:28:00, 2015-01-15 13:28:00))' in C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php:625
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `se...', Array, Object(Closure))
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `se...', Array, Object(Closure))
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `se...', Array)
+#3 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `se...', Array)
+#4 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `se...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(935): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7277): Illuminate\Database\Eloquent\Model->save()
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7254): Illuminate\Database\Eloquent\Model->getRelationshipFromMethod('save', 'save')
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7480): Illuminate\Database\Eloquent\Model->getAttribute('save')
+#14 C:\xampp\htdocs\Cafevn\app\routes.php(40): Illuminate\Database\Eloquent\Model->__get('save')
+#15 C:\xampp\htdocs\Cafevn\app\routes.php(47): getPlace(Object(simple_html_dom))
+#16 [internal function]: {closure}()
+#17 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#18 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#20 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#21 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#23 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#24 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#25 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#26 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#27 C:\xampp\htdocs\Cafevn\index.php(67): Illuminate\Foundation\Application->run()
+#28 {main} [] []
+[2015-01-15 13:29:41] production.ERROR: exception 'LogicException' with message 'Relationship method must return an object of type Illuminate\Database\Eloquent\Relations\Relation' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:7279
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7254): Illuminate\Database\Eloquent\Model->getRelationshipFromMethod('save', 'save')
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7480): Illuminate\Database\Eloquent\Model->getAttribute('save')
+#2 C:\xampp\htdocs\Cafevn\app\routes.php(40): Illuminate\Database\Eloquent\Model->__get('save')
+#3 C:\xampp\htdocs\Cafevn\app\routes.php(47): getPlace(Object(simple_html_dom))
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\Cafevn\index.php(67): Illuminate\Foundation\Application->run()
+#16 {main} [] []
+[2015-01-15 14:28:54] production.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in C:\xampp\htdocs\Cafevn\app\routes.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(78): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'C:\xampp\htdocs...', 78, Array)
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-15 14:51:08] production.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in C:\xampp\htdocs\Cafevn\app\routes.php:81
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(81): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'C:\xampp\htdocs...', 81, Array)
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-15 14:52:54] production.ERROR: exception 'ErrorException' with message 'Undefined variable: script' in C:\xampp\htdocs\Cafevn\app\routes.php:77
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(77): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\xampp\htdocs...', 77, Array)
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-15 15:10:28] production.ERROR: exception 'ErrorException' with message 'Undefined variable: lat' in C:\xampp\htdocs\Cafevn\app\routes.php:79
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(79): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\xampp\htdocs...', 79, Array)
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-15 15:10:39] production.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in C:\xampp\htdocs\Cafevn\app\routes.php:79
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(79): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'C:\xampp\htdocs...', 79, Array)
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-15 15:35:11] production.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in C:\xampp\htdocs\Cafevn\app\routes.php:82
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(82): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'C:\xampp\htdocs...', 82, Array)
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-15 17:02:14] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '{'' in C:\xampp\htdocs\Cafevn\app\routes.php:94
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-15 17:07:08] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'introduce' in 'field list'' in C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php:369
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(369): PDO->prepare('insert into `pl...')
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `pl...', Array)
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `pl...', Array, Object(Closure))
+#3 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `pl...', Array, Object(Closure))
+#4 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `pl...', Array)
+#5 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `pl...', Array)
+#6 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `pl...', Array, 'id')
+#7 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(935): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#13 C:\xampp\htdocs\Cafevn\app\routes.php(88): Illuminate\Database\Eloquent\Model->save()
+#14 [internal function]: {closure}()
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#21 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#22 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#23 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#24 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#25 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#26 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'introduce' in 'field list' (SQL: insert into `places` (`name`, `latitude`, `longitude`, `street_address`, `locality_address`, `region_address`, `introduce`, `updated_at`, `created_at`) values (Salt Coffee,  11.9440286,  108.435241, 3f, đường Tăng Bạt Hổ, phường 1 , , Tp. Đà Lạt, Lâm Đồng , , Việt Nam ,                                   <p><p>Ai đ&oacute; đ&atilde; từng n&oacute;i &ldquo;<em>Người Mỹ kh&ocirc;ng cần một sản phẩm kh&aacute;c, người Mỹ cần một c&acirc;u chuyện kh&aacute;c</em>&rdquo;. Trong thời điểm ngột ngạt hiện nay, người Việt Nam cần c&acirc;u chuyện ấy hơn người Mỹ &ndash; C&acirc;u chuyện về t&igrave;nh y&ecirc;u, l&ograve;ng tin v&agrave; tr&aacute;ch nhiệm mỗi ly c&agrave; ph&ecirc;, bạn cầm tr&ecirc;n tay l&agrave; một c&acirc;u chuyện một lời khẳng định. Từ những hạt c&agrave; ph&ecirc; Arabica Cầu Đất Đ&agrave; Lạt bằng tất cả t&acirc;m sức của m&igrave;nh Salt coffee đ&atilde; cố gắng mang đến những ly c&agrave; ph&ecirc; thực nhất với mong ước&ndash; Người Việt Nam được thưởng thức một ly c&agrave; ph&ecirc; trọn vẹn.</p>  <p>&nbsp;</p>  <p><a href="http://www.webtretho.com/forum/links.php2015-01-15 17:07:08url=http://s1191.photobucket.com/user/dangdinhquy/media/DSCN9269-1.jpg.html"><img src="http://i1191.photobucket.com/albums/z465/dangdinhquy/DSCN9269-1.jpg" style="margin:0px; width:625px" /></a></p>  <p>&nbsp;</p>  <p><strong>Salt coffee được lấy cảm hứng từ một c&acirc;u chuyện C&agrave; ph&ecirc; muối.</strong></p>  <p>Một c&acirc;u chuyện xoay quanh th&ocirc;ng điệp về t&igrave;nh y&ecirc;u &ndash; l&ograve;ng tin &ndash; tr&aacute;ch nhiệm của một cặp t&igrave;nh nh&acirc;n, c&ograve;n Salt coffee l&agrave; c&acirc;u chuyện t&igrave;nh y&ecirc;u &ndash; tr&aacute;ch nhiệm của người sản xuất v&agrave; c&aacute;ch tạo dựng l&ograve;ng tin với kh&aacute;ch h&agrave;ng trong mỗi ly c&agrave; ph&ecirc;.</p>  <p>&nbsp;</p>  <p>Những người đến với Salt coffee trước đ&oacute; v&igrave; t&ograve; m&ograve; v&agrave; nghĩ rằng chắc sẽ mặn như muối, nhưng sau đ&oacute;, họ đ&atilde; v&ocirc; c&ugrave;ng kinh ngạc: n&oacute; kh&ocirc;ng mặn như tưởng tượng m&agrave; thơm ngon hơn hẳn c&agrave; ph&ecirc; thường (đen v&agrave; n&acirc;u).</p>  <p>&nbsp;</p>  <p>Sở dĩ như vậy bởi Salt coffee c&oacute; c&ocirc;ng thức chế biến ri&ecirc;ng biệt mang đến một hương vị độc đ&aacute;o. Một ch&uacute;t mặn m&agrave; của biển đem đến một hương vị độc đ&aacute;o cho mọi người.</p>  <p>&nbsp;</p>  <p><a href="http://www.webtretho.com/forum/links.php2015-01-15 17:07:08url=http://s1191.photobucket.com/user/dangdinhquy/media/DSCN9252.jpg.html"><img src="http://i1191.photobucket.com/albums/z465/dangdinhquy/DSCN9252.jpg" style="margin:0px; width:625px" /></a></p>  <p>&nbsp;</p>  <p>Tuy nhi&ecirc;n, nền tảng quan trọng nhất khi x&acirc;y dựng Salt coffee l&agrave; mong muốn người ti&ecirc;u d&ugrave;ng VN được thưởng thức trọn vẹn ly c&agrave; ph&ecirc; thực sự kh&ocirc;ng phải thứ h&oacute;a chất mang t&ecirc;n c&agrave; ph&ecirc; hay nước đường mang hương vị c&agrave; ph&ecirc;. Muối l&agrave; một yếu tố l&agrave;m giảm vị đắng nhưng tăng vị đậm thay v&igrave; phải đổ h&oacute;a chất v&agrave;o.</p>  <p>&nbsp;</p>  <p>Với kh&ocirc;ng gian mở mang hương vị biển kết hợp ho&agrave;i h&ograve;a với hoa Đ&agrave; Lạt tạo ra cảm gi&aacute;c ấm &aacute;p, nhẹ nh&agrave;ng v&agrave; l&atilde;ng mạn.</p>  <p>&nbsp;</p>  <p><a href="http://www.webtretho.com/forum/links.php?url=http://s1191.photobucket.com/user/dangdinhquy/media/DSCN9258.jpg.html"><img src="http://i1191.photobucket.com/albums/z465/dangdinhquy/DSCN9258.jpg" style="margin:0px; width:625px" /></a></p>  <p>&nbsp;</p>  <p>Salt coffee hứa hẹn đem đến sự trẻ trung v&agrave; s&agrave;nh điệu cho kh&aacute;ch h&agrave;ng khi cầm tr&ecirc;n tay những con s&oacute;ng mang m&agrave;u xanh của đại dương.</p>  <p>&nbsp;</p>  <p><a href="http://www.webtretho.com/forum/links.php?url=http://s1191.photobucket.com/user/dangdinhquy/media/DSCN9254-1.jpg.html"><img src="http://i1191.photobucket.com/albums/z465/dangdinhquy/DSCN9254-1.jpg" style="margin:0px; width:625px" /></a></p>  <p>&nbsp;</p>  <p>Song những điều đ&oacute; chỉ l&agrave; một phần, t&igrave;nh y&ecirc;u v&agrave; tr&aacute;ch nhiệm với từng t&aacute;ch được đặt v&agrave;o yếu tố then chốt l&agrave; c&agrave; ph&ecirc; thật v&agrave; sạch. &ldquo;Đ&oacute; l&agrave; lời n&oacute;i dối duy nhất &ndash; anh đ&atilde; tự hứa với m&igrave;nh sẽ kh&ocirc;ng bao giờ n&oacute;i dối một lời n&agrave;o nữa, để chuộc lại lời n&oacute;i dối ban đầu.&rdquo;</p>  <p>&nbsp;</p>  <p>Trong c&acirc;u chuyện &ldquo;<em>C&agrave; ph&ecirc; muối</em>&rdquo;, ch&agrave;ng trai được xem l&agrave; biểu tượng của sự ch&acirc;n thật (thậm ch&iacute; l&agrave; &ldquo;<em>th&aacute;nh thiện</em>&rdquo;), suốt cuộc đời n&oacute;i dối chỉ một lần duy nhất nhưng m&atilde;i m&atilde;i tr&aacute;ch nhiệm với lời n&oacute;i đ&oacute;. Với Salt coffee, ho&agrave;i b&atilde;o về t&iacute;nh ch&acirc;n thật lớn lao hơn thế. Đ&oacute; l&agrave; sự ch&acirc;n thật ho&agrave;n hảo kh&ocirc;ng t&igrave; vết &ndash; Thực hơn c&acirc;u chuyện(Slogan của Salt coffee).</p>  <p>&nbsp;</p>  <p>Ai đ&oacute; từng n&oacute;i &ldquo;<em>Người Mỹ kh&ocirc;ng cần một sản phẩm kh&aacute;c, người Mỹ cần một c&acirc;u chuyện kh&aacute;c</em>&rdquo;. Trong thời điểm ngột ngạt hiện nay, Việt Nam cần c&acirc;u chuyện ấy hơn người Mỹ &ndash; C&acirc;u chuyện về t&igrave;nh y&ecirc;u, l&ograve;ng tin v&agrave; tr&aacute;ch nhiệm mỗi ly c&agrave; ph&ecirc;, bạn cầm tr&ecirc;n tay l&agrave; một c&acirc;u chuyện một lời khẳng định. Bằng hết t&acirc;m sức của m&igrave;nh những người tạo ra những ly c&agrave; ph&ecirc; thật nhất với mong ước cao nhất &ndash; Người Việt Nam được thưởng thức một ly c&agrave; ph&ecirc; trọn vẹn.</p>  <p>&nbsp;</p>  <p><a href="http://www.webtretho.com/forum/links.php?url=http://s1191.photobucket.com/user/dangdinhquy/media/DSCN9257-1.jpg.html"><img src="http://i1191.photobucket.com/albums/z465/dangdinhquy/DSCN9257-1.jpg" style="margin:0px; width:625px" /></a></p>  <p>&nbsp;</p>  <p>Dung dị, nhẹ nh&agrave;ng: mỗi ly c&agrave; ph&ecirc; l&agrave; một lời cam kết sự ch&acirc;n thật, l&ograve;ng tin, gi&aacute; trị nh&acirc;n văn trong sản phẩm v&agrave; kinh doanh d&agrave;nh cho người Việt Nam trong bối cảnh ngột ngạt của những gian dối, lừa lọc trong ti&ecirc;u d&ugrave;ng.</p>  <p>&nbsp;</p>  <p>Salt coffee chỉ l&agrave; một c&acirc;u chuyện nhỏ, nhưng gieo hi vọng về l&ograve;ng tin, t&igrave;nh y&ecirc;u v&agrave; tr&aacute;ch nhiệm đ&uacute;ng thời điểm. Người Việt Nam c&ograve;n cần g&igrave; hơn điều đ&oacute; v&agrave;o l&uacute;c n&agrave;y?</p>  <p>&nbsp;</p>  <p><strong>C&acirc;u chuyện t&igrave;nh y&ecirc;u được kể từ Đ&agrave; Lạt th&agrave;nh phố t&igrave;nh y&ecirc;u.</strong></p>  <p><strong>Cửa h&agrave;ng số 1. Số 3F Tăng Bạt Hổ, Phường 1, Th&agrave;nh phố Đ&agrave; Lạt.</strong><br /> <a href="https://www.facebook.com/saltcoffee.vn">https://www.facebook.com/saltcoffee.vn</a><br /> Twitter: Salt Coffee.<br /> www.saltcoffee.vn</p>  <p><em>Hưng Nguy&ecirc;n</em></p>  <p>&nbsp;</p> </p>                              , ?, ?))' in C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php:625
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `pl...', Array, Object(Closure))
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `pl...', Array, Object(Closure))
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `pl...', Array)
+#3 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `pl...', Array)
+#4 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `pl...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(935): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 C:\xampp\htdocs\Cafevn\app\routes.php(88): Illuminate\Database\Eloquent\Model->save()
+#12 [internal function]: {closure}()
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#14 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#19 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#20 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#21 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#22 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2015-01-15 17:08:27] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'introduce' in 'field list'' in C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php:369
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(369): PDO->prepare('insert into `pl...')
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `pl...', Array)
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `pl...', Array, Object(Closure))
+#3 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `pl...', Array, Object(Closure))
+#4 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `pl...', Array)
+#5 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `pl...', Array)
+#6 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `pl...', Array, 'id')
+#7 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(935): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#13 C:\xampp\htdocs\Cafevn\app\routes.php(88): Illuminate\Database\Eloquent\Model->save()
+#14 [internal function]: {closure}()
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#21 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#22 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#23 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#24 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#25 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#26 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'introduce' in 'field list' (SQL: insert into `places` (`name`, `latitude`, `longitude`, `street_address`, `locality_address`, `region_address`, `introduce`, `updated_at`, `created_at`) values (Salt Coffee,  11.9440286,  108.435241, 3f, đường Tăng Bạt Hổ, phường 1 , , Tp. Đà Lạt, Lâm Đồng , , Việt Nam ,                                   <p><p>Ai đ&oacute; đ&atilde; từng n&oacute;i &ldquo;<em>Người Mỹ kh&ocirc;ng cần một sản phẩm kh&aacute;c, người Mỹ cần một c&acirc;u chuyện kh&aacute;c</em>&rdquo;. Trong thời điểm ngột ngạt hiện nay, người Việt Nam cần c&acirc;u chuyện ấy hơn người Mỹ &ndash; C&acirc;u chuyện về t&igrave;nh y&ecirc;u, l&ograve;ng tin v&agrave; tr&aacute;ch nhiệm mỗi ly c&agrave; ph&ecirc;, bạn cầm tr&ecirc;n tay l&agrave; một c&acirc;u chuyện một lời khẳng định. Từ những hạt c&agrave; ph&ecirc; Arabica Cầu Đất Đ&agrave; Lạt bằng tất cả t&acirc;m sức của m&igrave;nh Salt coffee đ&atilde; cố gắng mang đến những ly c&agrave; ph&ecirc; thực nhất với mong ước&ndash; Người Việt Nam được thưởng thức một ly c&agrave; ph&ecirc; trọn vẹn.</p>  <p>&nbsp;</p>  <p><a href="http://www.webtretho.com/forum/links.php2015-01-15 17:08:27url=http://s1191.photobucket.com/user/dangdinhquy/media/DSCN9269-1.jpg.html"><img src="http://i1191.photobucket.com/albums/z465/dangdinhquy/DSCN9269-1.jpg" style="margin:0px; width:625px" /></a></p>  <p>&nbsp;</p>  <p><strong>Salt coffee được lấy cảm hứng từ một c&acirc;u chuyện C&agrave; ph&ecirc; muối.</strong></p>  <p>Một c&acirc;u chuyện xoay quanh th&ocirc;ng điệp về t&igrave;nh y&ecirc;u &ndash; l&ograve;ng tin &ndash; tr&aacute;ch nhiệm của một cặp t&igrave;nh nh&acirc;n, c&ograve;n Salt coffee l&agrave; c&acirc;u chuyện t&igrave;nh y&ecirc;u &ndash; tr&aacute;ch nhiệm của người sản xuất v&agrave; c&aacute;ch tạo dựng l&ograve;ng tin với kh&aacute;ch h&agrave;ng trong mỗi ly c&agrave; ph&ecirc;.</p>  <p>&nbsp;</p>  <p>Những người đến với Salt coffee trước đ&oacute; v&igrave; t&ograve; m&ograve; v&agrave; nghĩ rằng chắc sẽ mặn như muối, nhưng sau đ&oacute;, họ đ&atilde; v&ocirc; c&ugrave;ng kinh ngạc: n&oacute; kh&ocirc;ng mặn như tưởng tượng m&agrave; thơm ngon hơn hẳn c&agrave; ph&ecirc; thường (đen v&agrave; n&acirc;u).</p>  <p>&nbsp;</p>  <p>Sở dĩ như vậy bởi Salt coffee c&oacute; c&ocirc;ng thức chế biến ri&ecirc;ng biệt mang đến một hương vị độc đ&aacute;o. Một ch&uacute;t mặn m&agrave; của biển đem đến một hương vị độc đ&aacute;o cho mọi người.</p>  <p>&nbsp;</p>  <p><a href="http://www.webtretho.com/forum/links.php2015-01-15 17:08:27url=http://s1191.photobucket.com/user/dangdinhquy/media/DSCN9252.jpg.html"><img src="http://i1191.photobucket.com/albums/z465/dangdinhquy/DSCN9252.jpg" style="margin:0px; width:625px" /></a></p>  <p>&nbsp;</p>  <p>Tuy nhi&ecirc;n, nền tảng quan trọng nhất khi x&acirc;y dựng Salt coffee l&agrave; mong muốn người ti&ecirc;u d&ugrave;ng VN được thưởng thức trọn vẹn ly c&agrave; ph&ecirc; thực sự kh&ocirc;ng phải thứ h&oacute;a chất mang t&ecirc;n c&agrave; ph&ecirc; hay nước đường mang hương vị c&agrave; ph&ecirc;. Muối l&agrave; một yếu tố l&agrave;m giảm vị đắng nhưng tăng vị đậm thay v&igrave; phải đổ h&oacute;a chất v&agrave;o.</p>  <p>&nbsp;</p>  <p>Với kh&ocirc;ng gian mở mang hương vị biển kết hợp ho&agrave;i h&ograve;a với hoa Đ&agrave; Lạt tạo ra cảm gi&aacute;c ấm &aacute;p, nhẹ nh&agrave;ng v&agrave; l&atilde;ng mạn.</p>  <p>&nbsp;</p>  <p><a href="http://www.webtretho.com/forum/links.php?url=http://s1191.photobucket.com/user/dangdinhquy/media/DSCN9258.jpg.html"><img src="http://i1191.photobucket.com/albums/z465/dangdinhquy/DSCN9258.jpg" style="margin:0px; width:625px" /></a></p>  <p>&nbsp;</p>  <p>Salt coffee hứa hẹn đem đến sự trẻ trung v&agrave; s&agrave;nh điệu cho kh&aacute;ch h&agrave;ng khi cầm tr&ecirc;n tay những con s&oacute;ng mang m&agrave;u xanh của đại dương.</p>  <p>&nbsp;</p>  <p><a href="http://www.webtretho.com/forum/links.php?url=http://s1191.photobucket.com/user/dangdinhquy/media/DSCN9254-1.jpg.html"><img src="http://i1191.photobucket.com/albums/z465/dangdinhquy/DSCN9254-1.jpg" style="margin:0px; width:625px" /></a></p>  <p>&nbsp;</p>  <p>Song những điều đ&oacute; chỉ l&agrave; một phần, t&igrave;nh y&ecirc;u v&agrave; tr&aacute;ch nhiệm với từng t&aacute;ch được đặt v&agrave;o yếu tố then chốt l&agrave; c&agrave; ph&ecirc; thật v&agrave; sạch. &ldquo;Đ&oacute; l&agrave; lời n&oacute;i dối duy nhất &ndash; anh đ&atilde; tự hứa với m&igrave;nh sẽ kh&ocirc;ng bao giờ n&oacute;i dối một lời n&agrave;o nữa, để chuộc lại lời n&oacute;i dối ban đầu.&rdquo;</p>  <p>&nbsp;</p>  <p>Trong c&acirc;u chuyện &ldquo;<em>C&agrave; ph&ecirc; muối</em>&rdquo;, ch&agrave;ng trai được xem l&agrave; biểu tượng của sự ch&acirc;n thật (thậm ch&iacute; l&agrave; &ldquo;<em>th&aacute;nh thiện</em>&rdquo;), suốt cuộc đời n&oacute;i dối chỉ một lần duy nhất nhưng m&atilde;i m&atilde;i tr&aacute;ch nhiệm với lời n&oacute;i đ&oacute;. Với Salt coffee, ho&agrave;i b&atilde;o về t&iacute;nh ch&acirc;n thật lớn lao hơn thế. Đ&oacute; l&agrave; sự ch&acirc;n thật ho&agrave;n hảo kh&ocirc;ng t&igrave; vết &ndash; Thực hơn c&acirc;u chuyện(Slogan của Salt coffee).</p>  <p>&nbsp;</p>  <p>Ai đ&oacute; từng n&oacute;i &ldquo;<em>Người Mỹ kh&ocirc;ng cần một sản phẩm kh&aacute;c, người Mỹ cần một c&acirc;u chuyện kh&aacute;c</em>&rdquo;. Trong thời điểm ngột ngạt hiện nay, Việt Nam cần c&acirc;u chuyện ấy hơn người Mỹ &ndash; C&acirc;u chuyện về t&igrave;nh y&ecirc;u, l&ograve;ng tin v&agrave; tr&aacute;ch nhiệm mỗi ly c&agrave; ph&ecirc;, bạn cầm tr&ecirc;n tay l&agrave; một c&acirc;u chuyện một lời khẳng định. Bằng hết t&acirc;m sức của m&igrave;nh những người tạo ra những ly c&agrave; ph&ecirc; thật nhất với mong ước cao nhất &ndash; Người Việt Nam được thưởng thức một ly c&agrave; ph&ecirc; trọn vẹn.</p>  <p>&nbsp;</p>  <p><a href="http://www.webtretho.com/forum/links.php?url=http://s1191.photobucket.com/user/dangdinhquy/media/DSCN9257-1.jpg.html"><img src="http://i1191.photobucket.com/albums/z465/dangdinhquy/DSCN9257-1.jpg" style="margin:0px; width:625px" /></a></p>  <p>&nbsp;</p>  <p>Dung dị, nhẹ nh&agrave;ng: mỗi ly c&agrave; ph&ecirc; l&agrave; một lời cam kết sự ch&acirc;n thật, l&ograve;ng tin, gi&aacute; trị nh&acirc;n văn trong sản phẩm v&agrave; kinh doanh d&agrave;nh cho người Việt Nam trong bối cảnh ngột ngạt của những gian dối, lừa lọc trong ti&ecirc;u d&ugrave;ng.</p>  <p>&nbsp;</p>  <p>Salt coffee chỉ l&agrave; một c&acirc;u chuyện nhỏ, nhưng gieo hi vọng về l&ograve;ng tin, t&igrave;nh y&ecirc;u v&agrave; tr&aacute;ch nhiệm đ&uacute;ng thời điểm. Người Việt Nam c&ograve;n cần g&igrave; hơn điều đ&oacute; v&agrave;o l&uacute;c n&agrave;y?</p>  <p>&nbsp;</p>  <p><strong>C&acirc;u chuyện t&igrave;nh y&ecirc;u được kể từ Đ&agrave; Lạt th&agrave;nh phố t&igrave;nh y&ecirc;u.</strong></p>  <p><strong>Cửa h&agrave;ng số 1. Số 3F Tăng Bạt Hổ, Phường 1, Th&agrave;nh phố Đ&agrave; Lạt.</strong><br /> <a href="https://www.facebook.com/saltcoffee.vn">https://www.facebook.com/saltcoffee.vn</a><br /> Twitter: Salt Coffee.<br /> www.saltcoffee.vn</p>  <p><em>Hưng Nguy&ecirc;n</em></p>  <p>&nbsp;</p> </p>                              , ?, ?))' in C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php:625
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `pl...', Array, Object(Closure))
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `pl...', Array, Object(Closure))
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `pl...', Array)
+#3 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `pl...', Array)
+#4 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `pl...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(935): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 C:\xampp\htdocs\Cafevn\app\routes.php(88): Illuminate\Database\Eloquent\Model->save()
+#12 [internal function]: {closure}()
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#14 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#19 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#20 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#21 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#22 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2015-01-15 17:11:22] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cafegd.placespurports' doesn't exist' in C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php:369
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(369): PDO->prepare('insert into `pl...')
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `pl...', Array)
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `pl...', Array, Object(Closure))
+#3 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `pl...', Array, Object(Closure))
+#4 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `pl...', Array)
+#5 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `pl...', Array)
+#6 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `pl...', Array, 'id')
+#7 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(935): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#13 C:\xampp\htdocs\Cafevn\app\routes.php(109): Illuminate\Database\Eloquent\Model->save()
+#14 [internal function]: {closure}()
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#21 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#22 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#23 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#24 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#25 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#26 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cafegd.placespurports' doesn't exist (SQL: insert into `placespurports` (`place_id`, `purport_id`, `updated_at`, `created_at`) values (1, 1, 2015-01-15 17:11:22, 2015-01-15 17:11:22))' in C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php:625
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `pl...', Array, Object(Closure))
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `pl...', Array, Object(Closure))
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `pl...', Array)
+#3 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `pl...', Array)
+#4 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `pl...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(935): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 C:\xampp\htdocs\Cafevn\app\routes.php(109): Illuminate\Database\Eloquent\Model->save()
+#12 [internal function]: {closure}()
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#14 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#19 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#20 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#21 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#22 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2015-01-20 04:22:13] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method simple_html_dom_node::attr()' in C:\xampp\htdocs\Cafevn\app\routes.php:52
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-20 04:42:05] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function prlb()' in C:\xampp\htdocs\Cafevn\app\routes.php:56
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-20 04:52:07] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'prln' (T_STRING)' in C:\xampp\htdocs\Cafevn\app\routes.php:53
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-20 08:11:58] production.ERROR: exception 'LogicException' with message 'Relationship method must return an object of type Illuminate\Database\Eloquent\Relations\Relation' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:7279
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7254): Illuminate\Database\Eloquent\Model->getRelationshipFromMethod('save', 'save')
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7480): Illuminate\Database\Eloquent\Model->getAttribute('save')
+#2 C:\xampp\htdocs\Cafevn\app\routes.php(58): Illuminate\Database\Eloquent\Model->__get('save')
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#14 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#15 {main} [] []
+[2015-01-20 08:12:47] production.ERROR: exception 'LogicException' with message 'Relationship method must return an object of type Illuminate\Database\Eloquent\Relations\Relation' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:7279
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7254): Illuminate\Database\Eloquent\Model->getRelationshipFromMethod('save', 'save')
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7480): Illuminate\Database\Eloquent\Model->getAttribute('save')
+#2 C:\xampp\htdocs\Cafevn\app\routes.php(58): Illuminate\Database\Eloquent\Model->__get('save')
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#14 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#15 {main} [] []
+[2015-01-20 09:00:00] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '$place' (T_VARIABLE)' in C:\xampp\htdocs\Cafevn\app\routes.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-20 09:00:43] production.ERROR: exception 'ErrorException' with message 'Non-static method District::getIdWith() should not be called statically' in C:\xampp\htdocs\Cafevn\app\routes.php:21
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(21): Illuminate\Exception\Handler->handleError(2048, 'Non-static meth...', 'C:\xampp\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\Cafevn\app\routes.php(21): District::getIdWith()
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#13 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2015-01-20 09:06:37] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot use object of type stdClass as array' in C:\xampp\htdocs\Cafevn\app\models\District.php:11
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-20 09:16:30] production.ERROR: exception 'ErrorException' with message 'Use of undefined constant img - assumed 'img'' in C:\xampp\htdocs\Cafevn\app\routes.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(102): Illuminate\Exception\Handler->handleError(8, 'Use of undefine...', 'C:\xampp\htdocs...', 102, Array)
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-20 09:17:34] production.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in C:\xampp\htdocs\Cafevn\app\routes.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(102): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'C:\xampp\htdocs...', 102, Array)
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-20 09:23:27] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 0' in C:\xampp\htdocs\Cafevn\app\models\District.php:11
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\models\District.php(11): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', 'C:\xampp\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\Cafevn\app\routes.php(127): District::getIdWith(' Tp. ???? L???t', ' L??m ?????ng')
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#13 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2015-01-20 09:25:55] production.ERROR: exception 'ErrorException' with message 'Undefined variable: district_id' in C:\xampp\htdocs\Cafevn\app\routes.php:129
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(129): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\xampp\htdocs...', 129, Array)
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-20 09:26:42] production.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'place_id' cannot be null' in C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php:369
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(369): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `pl...', Array)
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `pl...', Array, Object(Closure))
+#3 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `pl...', Array, Object(Closure))
+#4 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `pl...', Array)
+#5 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `pl...', Array)
+#6 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `pl...', Array, 'id')
+#7 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(935): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#13 C:\xampp\htdocs\Cafevn\app\routes.php(153): Illuminate\Database\Eloquent\Model->save()
+#14 [internal function]: {closure}()
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#21 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#22 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#23 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#24 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#25 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#26 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'place_id' cannot be null (SQL: insert into `places_services` (`place_id`, `service_id`, `updated_at`, `created_at`) values (, 1, 2015-01-20 09:26:42, 2015-01-20 09:26:42))' in C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php:625
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `pl...', Array, Object(Closure))
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `pl...', Array, Object(Closure))
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `pl...', Array)
+#3 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `pl...', Array)
+#4 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `pl...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(935): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 C:\xampp\htdocs\Cafevn\app\routes.php(153): Illuminate\Database\Eloquent\Model->save()
+#12 [internal function]: {closure}()
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#14 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#19 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#20 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#21 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#22 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2015-01-20 09:31:40] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 0' in C:\xampp\htdocs\Cafevn\app\models\District.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\models\District.php(12): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', 'C:\xampp\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\Cafevn\app\routes.php(129): District::getIdWith(' Tp. ???? L???t', ' L??m ?????ng')
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#13 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2015-01-20 09:33:29] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 0' in C:\xampp\htdocs\Cafevn\app\models\District.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\models\District.php(12): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', 'C:\xampp\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\Cafevn\app\routes.php(129): District::getIdWith(' Tp. ???? L???t', ' L??m ?????ng')
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#13 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2015-01-20 09:44:49] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-20 09:44:49] production.ERROR: exception 'ErrorException' with message 'file_get_contents(http://localhost/Cafevn/public/assets/scfull.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+' in C:\xampp\htdocs\Cafevn\app\assets\simple_html_dom.php:75
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'file_get_conten...', 'C:\xampp\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\Cafevn\app\assets\simple_html_dom.php(75): file_get_contents('http://localhos...', false, NULL, -1)
+#2 C:\xampp\htdocs\Cafevn\app\routes.php(108): file_get_html('http://localhos...')
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#14 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#15 {main} [] []
+[2015-01-20 09:46:29] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function find() on a non-object' in C:\xampp\htdocs\Cafevn\app\routes.php:110
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-20 09:48:13] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function find() on a non-object' in C:\xampp\htdocs\Cafevn\app\routes.php:110
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-20 09:49:20] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function find() on a non-object' in C:\xampp\htdocs\Cafevn\app\routes.php:110
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-20 09:57:51] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function find() on a non-object' in C:\xampp\htdocs\Cafevn\app\routes.php:110
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-20 10:02:10] production.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'district_id' cannot be null' in C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php:369
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(369): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `pl...', Array)
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `pl...', Array, Object(Closure))
+#3 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `pl...', Array, Object(Closure))
+#4 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `pl...', Array)
+#5 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `pl...', Array)
+#6 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `pl...', Array, 'id')
+#7 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(935): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#13 C:\xampp\htdocs\Cafevn\app\routes.php(142): Illuminate\Database\Eloquent\Model->save()
+#14 [internal function]: {closure}()
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#21 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#22 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#23 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#24 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#25 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#26 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'district_id' cannot be null (SQL: insert into `places` (`name`, `latitude`, `longitude`, `street_address`, `district_id`, `region_address`, `introduce`, `updated_at`, `created_at`) values (ROSSO COFFEE,  10.7281641742142,  106.647795426984, BA15, đường Đường Số 10, phường Phong Phú , ,  Việt Nam,                                   ROSSO COFFE&nbsp;l&agrave; một trong những&nbsp;qu&aacute;n&nbsp;cafe nổi c&oacute; phong c&aacute;ch vừa hiện đại, vừa cổ k&iacute;nh ở KDC Phong Ph&uacute; 4, gi&aacute;p c&aacute;c khu B&igrave;nh Hưng, Quận 8 v&agrave; tọa lạc ngay g&oacute;c đường số 10, cắt ngang Quốc Lộ 50  Kh&ocirc;ng gian tho&aacute;ng m&aacute;t, sạch sẽ . Phục vụ cafe, sinh tố với gi&aacute; b&igrave;nh&nbsp;d&acirc;n  Đặc biệt ROSSO COFFE&nbsp;đang c&oacute; chương tr&igrave;nh khuyến m&atilde;i 1 tặng 1 đối với kh&aacute;ch h&agrave;ng mua về v&agrave; giảm 30% tất c&aacute;c thức uống cho Kh&aacute;ch h&agrave;ng thưởng thức tại qu&aacute;n.  Thời gian khuyến m&atilde;i: từ 1/11/2014 đến hết ng&agrave;y 31/11/2014 </p>                              , 2015-01-20 10:02:10, 2015-01-20 10:02:10))' in C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php:625
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(581): Illuminate\Database\Connection->runQueryCallback('insert into `pl...', Array, Object(Closure))
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(370): Illuminate\Database\Connection->run('insert into `pl...', Array, Object(Closure))
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Connection.php(327): Illuminate\Database\Connection->statement('insert into `pl...', Array)
+#3 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\Processor.php(30): Illuminate\Database\Connection->insert('insert into `pl...', Array)
+#4 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1896): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `pl...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(935): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6900): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6890): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(6847): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 C:\xampp\htdocs\Cafevn\app\routes.php(142): Illuminate\Database\Eloquent\Model->save()
+#12 [internal function]: {closure}()
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#14 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#19 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#20 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#21 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#22 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2015-01-20 10:08:45] production.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in C:\xampp\htdocs\Cafevn\app\routes.php:120
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(120): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'C:\xampp\htdocs...', 120, Array)
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2015-01-20 10:25:12] production.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in C:\xampp\htdocs\Cafevn\app\routes.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\routes.php(114): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'C:\xampp\htdocs...', 114, Array)
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#13 {main} [] []
