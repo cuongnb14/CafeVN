@@ -1,0 +1,126 @@
+/*
+	Author: bacuong;
+	Style for: cafevn;
+ */
+.page {
+	padding: 0;
+}
+
+.top-line {
+	background: #2194D2;
+	color: #ffffff;
+	height: 2em;
+	padding-right: 3em;
+}
+.top-line a{
+	line-height: 2em;
+	color: #ffffff;
+}
+.top-line a:hover{
+	text-decoration: none;
+}
+
+/*Style for search box*/
+.search-box {
+    text-align: center;
+}
+.search-box .finput {
+    border: 6px solid #F7F9FA;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+    -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95A2A7 inset;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95A2A7 inset;
+    height: 2.8em;
+    /*width: 275px;*/
+    font-size: 1.2em;
+    display: inline;
+}
+.search-box .fbtn {
+    margin-top: -0.3em;
+    height: 2em;
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 28px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 6px;
+  text-decoration: none;
+}
+
+.search-box .fbtn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+/*Style for slide*/
+.btn-container {
+	padding: 0;
+}
+.btn-container .cf-btn{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0.2em;
+}
+
+
+
+.content-container {
+	background: #eeeeee;
+	padding: 1em 5em 0.5em;
+}
+.content-container .btn-container .btn-cf {
+	width: 100%;
+	margin-bottom: 0.1em;
+	background: #F5791F;
+	color: #ffffff;
+}
+.content-container .btn-container .btn-cf:hover{
+	background: #889196;
+}
+/* box */
+.box .box-title{
+	width: 100%;
+	border-bottom: 1px solid #dddddd;
+	text-transform: uppercase;
+	color: #2194D2;
+}
+
+
+/*place*/
+.place {
+	padding-left: 0;
+	padding-right: 0.5em;
+	padding-bottom: 1em;
+	border-bottom: 2px dashed #dddddd;
+	margin-bottom: 1em;
+}
+.place .thumnail{
+	padding: 0.2em;
+	border: 1px solid #dadada;
+}
+
+.place .description .name-place{
+	color: #593220;
+	font-weight: 500;
+	margin: 0;
+}
+.place .description .name-place a{
+	border: 1px solid #dddddd;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}
+.place .description .address{
+	color: #095B97;
+	margin: 0;
+}
+
+.footer{
+	min-height: 100px;
+	background: #aaaaaa;
+	border-top: 3px solid #777777;
+}
