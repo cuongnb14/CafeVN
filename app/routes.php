@@ -11,10 +11,13 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/', array('as' => 'home', 'uses' => 'PublicHomeController@index'));
+
+Route::get('/slide',array('as' => 'slide', function(){
+	return View::make("public.layout.slide");
+}));
+
+Route::get('/quan-cafe', array('as' => 'quan_cafe', 'uses' => 'PublicStoreController@index'));
 
 Route::get('/test', function()
 {
