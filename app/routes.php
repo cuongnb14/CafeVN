@@ -19,6 +19,8 @@ Route::get('/slide',array('as' => 'slide', function(){
 
 Route::get('/quan-cafe', array('as' => 'quan_cafe', 'uses' => 'PublicStoreController@index'));
 
+Route::get('/quan-cafe/{id}', array('as' => 'quan_cafe', 'uses' => 'PublicStoreController@detail'));
+
 Route::get('/test', function()
 {
 	echo District::getIdWith('Hai Bà Trưng','Hà Nội');

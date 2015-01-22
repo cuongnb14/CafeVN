@@ -98,6 +98,8 @@
 	padding-bottom: 1em;
 	border-bottom: 2px dashed #dddddd;
 	margin-bottom: 1em;
+	height: 11em;
+	overflow: hidden;
 }
 .place .thumnail{
 	padding: 0.2em;
@@ -109,10 +111,19 @@
 	font-weight: 500;
 	margin: 0;
 }
-.place .description .name-place a{
+.place .description .name-place a.link_map{
 	border: 1px solid #dddddd;
 	padding-left: 0.2em;
 	padding-right: 0.2em;
+}
+.place .description .name-place a.link_name{
+	color: #593220;
+	font-weight: 500;
+	font-size: 0.8em;
+	margin: 0;
+}
+.place .description .name-place a.link_name:hover{
+	text-decoration: none;
 }
 .place .description .address{
 	color: #095B97;
@@ -124,3 +135,38 @@
 	background: #aaaaaa;
 	border-top: 3px solid #777777;
 }
+/* custom checkbox */
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"] + label:before {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	content: "";
+	background: url('../images/checkbox.png') no-repeat center center;
+	background-size: 20px;
+}
+
+
+input[type="checkbox"]:checked + label:before {
+	background: url('../images/checkbox_checked.png') no-repeat center center;
+	background-size: 20px;
+}
+
+/* panel */
+.panel .panel-heading{
+	text-transform: uppercase;
+	color: #2194D2;
+	font-weight: 600;
+	text-align: center;
+}
+
+/* Map */
+.map-container {
+	padding: 0;
+}
+
+

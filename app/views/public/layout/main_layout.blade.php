@@ -25,7 +25,7 @@
 				</div>
 				<div class="header container-fluid">
 					<div id="logo" class="col-md-4">
-						<img src="{{asset('/public/assets/images/logo.png')}}" />
+						<a href="{{URL::route('home')}}" ><img alt="Cafe Garden" src="{{asset('/public/assets/images/logo.png')}}" /></a>
 					</div>
 					<div class="search-box col-md-8">
                         <form>
