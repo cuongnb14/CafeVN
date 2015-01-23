@@ -21,9 +21,48 @@ Route::get('/quan-cafe', array('as' => 'quan_cafe', 'uses' => 'PublicStoreContro
 
 Route::get('/quan-cafe/{id}', array('as' => 'quan_cafe', 'uses' => 'PublicStoreController@detail'));
 
-Route::get('/test', function()
-{
-	echo District::getIdWith('Hai Bà Trưng','Hà Nội');
+Route::group(array('prefix' => 'ajax'), function(){
+	Route::post('/tim-kiem', function(){
+		$places = new Place;
+		if (Input::has('services') && !empty(Input::get('services'))){
+			$services = Input::get('services');
+			foreach ($services as $service){
+				$places = $places->whereHas('services', function($q) use ($service){
+						$q->where('service_id', '=', $service);
+				});
+			}
+			
+		}
+		
+		if (Input::has('purports') && !empty(Input::get('purports'))){
+			$purports = Input::get('purports');
+			foreach ($purports as $purport){
+				$places = $places->whereHas('purports', function($q) use ($purport){
+						$q->where('purport_id', '=', $purport);
+				});
+			}	
+		}
+		
+			$places = $places->paginate(20);
+		
+		$data['places'] = $places;
+		
+		return View::make('public.store.ajax_tim_kiem',$data);
+	});
+	
+});
+
+Route::get('/test', function(){
+	$places = new Place;
+	$whereIn = '1';
+	$services = array(1,3);
+		foreach ($services as $service){
+						$places = $places->whereHas('services', function($q) use ($service){
+								$q->where('service_id', '=', $service);
+						});
+					}
+					
+					dd($places->get()->toArray());
 });
 
 Route::filter('addAsset', function(){

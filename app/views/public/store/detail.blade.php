@@ -62,10 +62,6 @@
 						<input disabled @if(in_array($service->id, $service_sps)) checked @endif type="checkbox" name="service" value="{{$service->id}}" id="s{{$service->id}}">
 						<label for="s{{$service->id}}"> {{$service->name}}</label>
 					</li>
-						<li class="col-md-4">
-						<input disabled type="checkbox" name="service" value="{{$service->id}}" id="s{{$service->id}}">
-						<label for="s{{$service->id}}"> {{$service->name}}</label>
-					</li>
 				@endforeach
 
 
@@ -78,14 +74,10 @@
 		<div class="panel-body">
 			<ul class="list-unstyled">
 				@foreach($purports as $purport)
-				
 					<li class="col-md-4">
 						<input disabled @if(in_array($purport->id, $purport_sps)) checked @endif type="checkbox" name="purport" value="{{$purport->id}}" id="p{{$purport->id}}">
 						<label for="p{{$purport->id}}"> {{$purport->name}}</label>
 					</li>
-					
-					
-					
 				@endforeach
 
 

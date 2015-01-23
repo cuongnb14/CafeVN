@@ -9,7 +9,7 @@
 				<ul class="list-unstyled">
 				@foreach($services as $service)
 					<li>
-						<input type="checkbox" name="service" value="{{$service->id}}" id="s{{$service->id}}">
+						<input type="checkbox" name="service[]" value="{{$service->id}}" id="s{{$service->id}}">
 						<label for="s{{$service->id}}"> {{$service->name}}</label>
 					</li>
 				@endforeach
@@ -24,7 +24,7 @@
 				<ul class="list-unstyled">
 					@foreach($purports as $purport)
 					<li>
-						<input type="checkbox" name="purport" value="{{$purport->id}}" id="p{{$purport->id}}">
+						<input type="checkbox" name="purport[]" value="{{$purport->id}}" id="p{{$purport->id}}">
 						<label for="p{{$purport->id}}"> {{$purport->name}}</label>
 					</li>
 					@endforeach
@@ -38,7 +38,7 @@
 	<div class="col-md-9 main-content">
 		<div class="box">
 			<h3 class="box-title">Danh sách quán</h3>
-			<div class="box-body">
+			<div class="box-body" id="list-place">
 				@foreach($places as $place)
 				<div class="place col-md-6">
 					<div class="thumnail col-md-4">
