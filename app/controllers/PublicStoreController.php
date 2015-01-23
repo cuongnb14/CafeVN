@@ -3,9 +3,11 @@ class PublicStoreController extends BaseController {
     
 	public function index(){
 		$places = Place::paginate(20);
+		$places->setBaseUrl('/Cafevn/ajax/tim-kiem');
 		$data['places'] = $places;
 		$data['services'] = Service::all();
 		$data['purports'] = Purport::all();
+		$data['provinces'] = Province::all();
 	    return View::make("public.store.index",$data);
 	}
 	

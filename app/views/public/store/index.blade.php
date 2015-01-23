@@ -3,6 +3,22 @@
 
 <div class="content-container container-fluid">
 	<div class="col-md-3 sidebar">
+	
+		<div class="panel panel-default">
+			<div class="panel-heading">Địa điểm</div>
+			<div class="panel-body">
+				<select class="form-control input-sm" id="provinces" onchange="javascript:getDistricts()">
+					<option value="0">Chọn tỉnh/ thành phố</option>
+				@foreach($provinces as $province)
+					<option value="{{$province->id}}">{{$province->name}}</option>
+				@endforeach
+				</select>
+				<div id="list-district">
+					
+				</div>
+			</div>
+		</div>
+	
 		<div class="panel panel-default">
 			<div class="panel-heading">Dịch vụ</div>
 			<div class="panel-body">
