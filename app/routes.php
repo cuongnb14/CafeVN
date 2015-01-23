@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Input;
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -24,6 +25,11 @@ Route::get('/quan-cafe/{id}', array('as' => 'quan_cafe', 'uses' => 'PublicStoreC
 Route::group(array('prefix' => 'ajax'), function(){
 	Route::post('/tim-kiem', function(){
 		$places = new Place;
+		if (Input::has('districts') && count(Input::get('districts') > 0)){
+			$districts = Input::get('districts');
+			$places = $places->whereIn('district_id',$districts);
+		}
+		
 		if (Input::has('services') && !empty(Input::get('services'))){
 			$services = Input::get('services');
 			foreach ($services as $service){
@@ -31,7 +37,6 @@ Route::group(array('prefix' => 'ajax'), function(){
 						$q->where('service_id', '=', $service);
 				});
 			}
-			
 		}
 		
 		if (Input::has('purports') && !empty(Input::get('purports'))){
@@ -42,27 +47,29 @@ Route::group(array('prefix' => 'ajax'), function(){
 				});
 			}	
 		}
-		
-			$places = $places->paginate(20);
-		
+		$places = $places->paginate(20);
 		$data['places'] = $places;
-		
 		return View::make('public.store.ajax_tim_kiem',$data);
+	});
+	
+	Route::post('/quan-huyen', function(){
+		$province_id = Input::get('province_id');
+		$districts = $districts = Province::find($province_id)->districts;
+		$data['districts'] = $districts;
+		return View::make('public.store.ajax_quan_huyen',$data);
 	});
 	
 });
 
 Route::get('/test', function(){
-	$places = new Place;
-	$whereIn = '1';
-	$services = array(1,3);
-		foreach ($services as $service){
-						$places = $places->whereHas('services', function($q) use ($service){
-								$q->where('service_id', '=', $service);
-						});
-					}
-					
-					dd($places->get()->toArray());
+		$places = new Place;
+	
+			$districts = array(1);
+			$places = $places->whereIn('district_id',array('1'));
+	
+		
+		$places = $places->get()->toArray();
+		dd($places);
 });
 
 Route::filter('addAsset', function(){
