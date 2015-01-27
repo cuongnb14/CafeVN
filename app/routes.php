@@ -23,7 +23,7 @@ Route::get('/quan-cafe', array('as' => 'quan_cafe', 'uses' => 'PublicStoreContro
 Route::get('/quan-cafe/{id}', array('as' => 'quan_cafe', 'uses' => 'PublicStoreController@detail'));
 
 Route::group(array('prefix' => 'ajax'), function(){
-	Route::post('/tim-kiem', function(){
+	Route::post('/tim-kiem', array('as' => 'search', function(){
 		$places = new Place;
 		if (Input::has('districts') && count(Input::get('districts') > 0)){
 			$districts = Input::get('districts');
@@ -50,7 +50,7 @@ Route::group(array('prefix' => 'ajax'), function(){
 		$places = $places->paginate(20);
 		$data['places'] = $places;
 		return View::make('public.store.ajax_tim_kiem',$data);
-	});
+	}));
 	
 	Route::post('/quan-huyen', function(){
 		$province_id = Input::get('province_id');

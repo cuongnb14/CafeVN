@@ -58,6 +58,13 @@
 }
 
 /*Style for slide*/
+.slide iframe {
+	margin: 0;
+}
+.slide{
+	padding: 0;
+}
+
 .btn-container {
 	padding: 0;
 }
@@ -89,7 +96,10 @@
 	text-transform: uppercase;
 	color: #2194D2;
 }
-
+/* Meta sidebar */
+.meta-sidebar {
+	margin-top: 2.5em;
+}
 
 /*place*/
 .place {
