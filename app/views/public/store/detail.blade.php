@@ -4,23 +4,34 @@
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 
 <script>
+	
+	var map;
+	var currentPos;
+	var placePos;
+	var directionsDisplay;
+	var directionsService;
+	
+
 	function initialize() {
-	  var placeLatlng = new google.maps.LatLng({{$place->latitude}},{{$place->longitude}});
+	  placePos = new google.maps.LatLng({{$place->latitude}},{{$place->longitude}});
 	  var mapOptions = {
 	    zoom: 18,
-	    center: placeLatlng
+	    center: placePos
 	  };
 
-	  var map = new google.maps.Map(document.getElementById('map-canvas'),
+	   map = new google.maps.Map(document.getElementById('map-canvas'),
 	      mapOptions);
 
 	  var marker = new google.maps.Marker({
-	    position: placeLatlng,
-	    title:"Hello World!",
+	    position: placePos,
+	    title:"{{$place->name}}",
 	    animation: google.maps.Animation.DROP
-	});
+	   });
+	  marker.setMap(map);
 
-	marker.setMap(map);
+	  directionsDisplay = new google.maps.DirectionsRenderer();
+	  directionsDisplay.setMap(map);
+	
 	}
 
 	function loadScript() {
@@ -29,9 +40,58 @@
 	  script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&' +
 	      'callback=initialize';
 	  document.body.appendChild(script);
+	  
+	}
+	window.onload = loadScript;
+
+	function findDirection(){
+		var marker = new google.maps.Marker({
+	  	    position: currentPos,
+	  	    title:"Vị trí của bạn",
+	  	    animation: google.maps.Animation.DROP
+	  	   });
+	  	 marker.setMap(map);
+	  	 map.setCenter(currentPos);
+
+	  	var request = {
+  		    origin: currentPos,
+  		    destination: placePos,
+  		    travelMode: google.maps.TravelMode.DRIVING 
+  		  };
+
+	  	directionsService = new google.maps.DirectionsService();
+	  	 directionsService.route(request, function(result, status) {
+	  	    if (status == google.maps.DirectionsStatus.OK) {
+	  	      directionsDisplay.setDirections(result);
+	  	    } else {
+
+		  	}
+	  	  });
+	 
 	}
 
-	window.onload = loadScript;
+	function direction(){
+		// Try HTML5 geolocation
+		  if(navigator.geolocation) {
+		    navigator.geolocation.getCurrentPosition(function(position) {
+		      currentPos = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+		      findDirection();
+		     
+		    }, function() {
+		      //handleNoGeolocation(true);
+		    });
+		  } else {
+		    // Browser doesn't support Geolocation
+			    currentPos = placePos;
+			    findDirection();
+		  }
+	}
+
+	$(document).ready(function(){
+		$('#direction').click(function(){
+			direction();		
+		});
+	});
 
 
 </script>
@@ -41,6 +101,9 @@
 
 	<div class="container-fluid map-container">
 		<div id="map-canvas" style="width: 100%; height: 380px;"></div>
+	</div>
+	<div class="container-fluid map-btn">
+		<button id="direction" href="#" class="btn btn-primary btn-sm">Tìm đường đến đây</button>
 	</div>
 
 
@@ -58,10 +121,10 @@
 		<div class="panel-body">
 			<ul class="list-unstyled">
 				@foreach($services as $service)
-					<li class="col-md-4">
-						<input disabled @if(in_array($service->id, $service_sps)) checked @endif type="checkbox" name="service" value="{{$service->id}}" id="s{{$service->id}}">
-						<label for="s{{$service->id}}"> {{$service->name}}</label>
-					</li>
+				<li class="col-md-4"><input disabled @if(in_array($service->id,
+					$service_sps)) checked @endif type="checkbox" name="service"
+					value="{{$service->id}}" id="s{{$service->id}}"> <label
+					for="s{{$service->id}}"> {{$service->name}}</label></li>
 				@endforeach
 
 
@@ -74,10 +137,10 @@
 		<div class="panel-body">
 			<ul class="list-unstyled">
 				@foreach($purports as $purport)
-					<li class="col-md-4">
-						<input disabled @if(in_array($purport->id, $purport_sps)) checked @endif type="checkbox" name="purport" value="{{$purport->id}}" id="p{{$purport->id}}">
-						<label for="p{{$purport->id}}"> {{$purport->name}}</label>
-					</li>
+				<li class="col-md-4"><input disabled @if(in_array($purport->id,
+					$purport_sps)) checked @endif type="checkbox" name="purport"
+					value="{{$purport->id}}" id="p{{$purport->id}}"> <label
+					for="p{{$purport->id}}"> {{$purport->name}}</label></li>
 				@endforeach
 
 
