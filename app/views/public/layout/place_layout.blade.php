@@ -20,22 +20,18 @@
 		<div class="page container-fluid">
 			<div class="header-container"> 
 				<div class="top-line clearfix">
+					<ul class="pull-left list-inline list-unstyled">
+						<li><a href="{{URL::route('home')}}">Cafe Graden</a></li>
+					</ul>
 					<ul class="pull-right list-inline list-unstyled"> 
 						<li><a href="">Liên hệ</a></li>
 						<li><a href="">Thông tin</a></li> 
 					</ul>
 				</div>
 				<div class="header container-fluid">
-					<div id="logo" class="col-md-4">
-						<a href="{{URL::route('home')}}" ><img alt="Cafe Garden" src="{{asset('/public/assets/images/logo.png')}}" /></a>
+					<div id="place-name" class="col-md-4">
+						<a href="{{URL::route('quan_cafe',array($place->id))}}" ><h1>{{$place->name}}</h1></a>
 					</div>
-					<div class="search-box col-md-8">
-                        <form>
-                            <input type="text" name="" class="finput" placeholder=" Tên quán">
-                            <input type="text" name="" class="finput" placeholder=" Địa điểm">
-                            <button type="submit" class="btn btn-info">Tìm kiếm</button>
-                        </form>
-                    </div>
 				</div>
 				<!-- End .header -->
 				

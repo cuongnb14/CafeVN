@@ -8,6 +8,7 @@ class PublicStoreController extends BaseController {
 		$data['services'] = Service::all();
 		$data['purports'] = Purport::all();
 		$data['provinces'] = Province::all();
+		$data['title'] = "Tìm kiếm quán cafe";
 	    return View::make("public.store.index",$data);
 	}
 	
@@ -24,8 +25,15 @@ class PublicStoreController extends BaseController {
 		foreach ($service_sps as $service_sp){
 			$data['service_sps'][] = $service_sp['service_id'];
 		}
-
+		$data['title'] = $data['place']->name;
 		return View::make("public.store.detail",$data);
 	}
+	
+	public function map($id){
+		$data['place'] = Place::find($id);
+		$data['title'] = "Bản đồ | ".$data['place']->name;
+		return View::make("public.store.map",$data);
+	}
+	
 }
 ?>

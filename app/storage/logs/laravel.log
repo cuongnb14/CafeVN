@@ -3398,3 +3398,24 @@ Stack trace:
 #9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
 #10 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
 #11 {main} [] []
+[2015-02-07 16:38:13] production.ERROR: exception 'ErrorException' with message 'Undefined variable: data' in C:\xampp\htdocs\Cafevn\app\controllers\PublicStoreController.php:33
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\controllers\PublicStoreController.php(33): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\xampp\htdocs...', 33, Array)
+#1 [internal function]: PublicStoreController->map('1')
+#2 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('map', Array)
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(PublicStoreController), Object(Illuminate\Routing\Route), 'map')
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'PublicStoreCont...', 'map')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#18 {main} [] []

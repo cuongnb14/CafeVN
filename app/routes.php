@@ -18,9 +18,11 @@ Route::get('/slide',array('as' => 'slide', function(){
 	return View::make("public.layout.slide");
 }));
 
-Route::get('/quan-cafe', array('as' => 'quan_cafe', 'uses' => 'PublicStoreController@index'));
+Route::get('/quan-cafe', array('as' => 'quan_cafes', 'uses' => 'PublicStoreController@index'));
 
 Route::get('/quan-cafe/{id}', array('as' => 'quan_cafe', 'uses' => 'PublicStoreController@detail'));
+
+Route::get('/quan-cafe/{id}/map', array('as' => 'quan_cafe_map', 'uses' => 'PublicStoreController@map'));
 
 Route::group(array('prefix' => 'ajax'), function(){
 	Route::post('/tim-kiem', array('as' => 'search', function(){
