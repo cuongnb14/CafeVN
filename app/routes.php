@@ -24,6 +24,17 @@ Route::get('/quan-cafe/{id}', array('as' => 'quan_cafe', 'uses' => 'PublicStoreC
 
 Route::get('/quan-cafe/{id}/map', array('as' => 'quan_cafe_map', 'uses' => 'PublicStoreController@map'));
 
+Route::group(array('prefix' => 'admin'), function(){
+		Route::get('/login', array('as' => 'login', function(){
+			return View::make('admin.login');
+		}));
+		
+		Route::get('/index', array('as' => 'ad_index', function(){
+			return View::make('admin.index');
+		}));
+
+});
+
 Route::group(array('prefix' => 'ajax'), function(){
 	Route::post('/tim-kiem', array('as' => 'search', function(){
 		$places = new Place;
