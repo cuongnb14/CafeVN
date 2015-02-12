@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Redirect;
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -24,9 +25,28 @@ Route::get('/quan-cafe/{id}', array('as' => 'quan_cafe', 'uses' => 'PublicStoreC
 
 Route::get('/quan-cafe/{id}/map', array('as' => 'quan_cafe_map', 'uses' => 'PublicStoreController@map'));
 
+Route::get('/dang-ki', array('as' => 'ad_register', function(){
+	return View::make("admin.register");
+}));
+
+Route::post('/dang-ki', array('as' => 'post_register', function(){
+	return View::make("admin.register");
+}));
+
 Route::group(array('prefix' => 'admin'), function(){
-		Route::get('/login', array('as' => 'login', function(){
+		Route::get('/login', array('as' => 'ad_login', function(){
 			return View::make('admin.login');
+		}));
+		
+		Route::post('/login', array('as' => 'post_login', function(){
+			$username = Input::get("username");
+			$password = Input::get("password");
+			if(User::checkLogin($username, $password)){
+				Session::put("logined", "true");
+				return Redirect::route("ad_index");
+			} else {
+				return Redirect::route("ad_login")->with("error", "Tên đăng nhập hoặc mật khẩu không đúng!");
+			}
 		}));
 		
 		Route::get('/index', array('as' => 'ad_index', function(){

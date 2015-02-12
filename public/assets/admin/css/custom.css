@@ -1,0 +1,5 @@
+@CHARSET "utf-8";
+.error {
+	font-weight: normal;
+	color: red;
+}

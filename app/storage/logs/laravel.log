@@ -3661,3 +3661,547 @@ Stack trace:
 #9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
 #10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
 #11 {main} [] []
+[2015-02-10 03:18:59] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:22:35] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:22:35] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:24:11] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:31:37] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:32:11] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:32:11] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:32:30] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:32:30] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:33:21] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:33:21] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:34:32] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:35:18] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:35:18] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:37:14] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:37:14] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 03:41:44] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 10:48:59] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 12:20:21] production.ERROR: exception 'ErrorException' with message 'Undefined variable: check' in C:\xampp\htdocs\Cafevn\app\models\User.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\app\models\User.php(14): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\xampp\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Cafevn\app\routes.php(35): User::checkLogin('bacuong', '123456')
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#13 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2015-02-10 14:48:25] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 14:48:25] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 14:49:04] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 14:51:28] production.ERROR: exception 'InvalidArgumentException' with message 'Route [ad_login] not defined.' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5976
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\Routing\Redirector.php(155): Illuminate\Routing\UrlGenerator->route('ad_login', Array)
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(3259): Illuminate\Routing\Redirector->route('ad_login')
+#2 C:\xampp\htdocs\Cafevn\app\routes.php(38): Illuminate\Support\Facades\Facade::__callStatic('route', Array)
+#3 C:\xampp\htdocs\Cafevn\app\routes.php(38): Illuminate\Support\Facades\Redirect::route('ad_login')
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#16 {main} [] []
+[2015-02-10 14:51:38] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 14:51:38] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 14:55:26] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 14:55:26] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 14:55:32] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 14:55:32] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 14:57:03] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 14:57:03] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 14:59:12] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 15:09:50] production.ERROR: exception 'InvalidArgumentException' with message 'Route [post_register] not defined.' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5976
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(3259): Illuminate\Routing\UrlGenerator->route('post_register')
+#1 C:\xampp\htdocs\Cafevn\app\storage\views\be3da1f008599305580e3b9b533ef3ee(44): Illuminate\Support\Facades\Facade::__callStatic('route', Array)
+#2 C:\xampp\htdocs\Cafevn\app\storage\views\be3da1f008599305580e3b9b533ef3ee(44): Illuminate\Support\Facades\URL::route('post_register')
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(9867): include('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\xampp\htdocs...', Array)
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(9745): Illuminate\View\Engines\CompilerEngine->get('C:\xampp\htdocs...', Array)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(9732): Illuminate\View\View->getContents()
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(9723): Illuminate\View\View->renderContents()
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(10425): Illuminate\View\View->render()
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(9955): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5245): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5054): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'ErrorException' with message 'Route [post_register] not defined. (View: C:\xampp\htdocs\Cafevn\app\views\admin\register.blade.php)' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5976
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(9869): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 C:\xampp\htdocs\Cafevn\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\xampp\htdocs...', Array)
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(9745): Illuminate\View\Engines\CompilerEngine->get('C:\xampp\htdocs...', Array)
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(9732): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(9723): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(10425): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(9955): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5245): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5054): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\xampp\htdocs\Cafevn\index.php(72): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2015-02-10 16:00:11] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 16:00:17] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-02-10 16:01:32] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\Cafevn\bootstrap\compiled.php:5738
+Stack trace:
+#0 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\Cafevn\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\Cafevn\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []

@@ -1,26 +1,31 @@
 <?php
+class User extends Eloquent{
 
-use Illuminate\Auth\UserTrait;
-use Illuminate\Auth\UserInterface;
-use Illuminate\Auth\Reminders\RemindableTrait;
-use Illuminate\Auth\Reminders\RemindableInterface;
-
-class User extends Eloquent implements UserInterface, RemindableInterface {
-
-	use UserTrait, RemindableTrait;
-
-	/**
-	 * The database table used by the model.
-	 *
-	 * @var string
-	 */
 	protected $table = 'users';
-
 	/**
-	 * The attributes excluded from the model's JSON form.
-	 *
-	 * @var array
+	 * Kiểm tra đăng nhập với username và password
+	 * @param string $username
+	 * @param string $password
+	 * @return boolean
 	 */
-	protected $hidden = array('password', 'remember_token');
-
+	public static function checkLogin($username, $password){
+		$password = md5($password);
+		$flag = User::where("username","=",$username)->where("password","=",$password)->count();
+		if($flag > 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	/**
+	 * Kiểm tra username đã tồn tại hay chưa?
+	 * @param string $username
+	 * @return boolean
+	 */
+	public static function isAvalibleUser($username){
+		if(User::where("username","=",$username)->count()>0)
+			return true;
+		else 
+			return false;
+	}
 }

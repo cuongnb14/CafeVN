@@ -9,7 +9,7 @@
 	<div class="description col-md-8">
 		<h3 class="name-place">
 			<a class="link_name" href="{{URL::route('quan_cafe',$place->id)}}">{{$place->name}}</a>
-			<a href="#" class="link_map"><i class="fa fa-map-marker"></i></a>
+			<a href="{{URL::route('quan_cafe_map',array($place->id))}}" class="link_map"><i class="fa fa-map-marker"></i></a>
 		</h3>
 		<p class="address">3f Tăng Bạt Hổ, Tp. Đà Lạt, Lâm Đồng, Việt Nam</p>
 		<p class="info">Ai đó đã cần một sản</p>
