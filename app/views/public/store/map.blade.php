@@ -76,7 +76,7 @@
 	  directionsDisplay.setMap(map);
 	  directionsDisplay.setPanel(document.getElementById('directions-panel'));
 
-	// Try HTML5 geolocation
+	// Try HTML5 geolocation, lay vi tri hien tai
 	  if(navigator.geolocation) {
 	    navigator.geolocation.getCurrentPosition(function(position) {
 	      currentPos = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);

@@ -3,3 +3,53 @@
 	font-weight: normal;
 	color: red;
 }
+
+.main-content {
+	padding-bottom: 3em;
+}
+
+.cf-input{
+	padding-left: 1em;
+	position: relative;
+	line-height: 2.7em;
+}
+.cf-input label {
+	font-weight: normal;
+	display: inline-block;
+	width: 10em;
+}
+
+.cf-input input {
+	display: inline;
+	width: 25em;
+}
+.cf-input select {
+	display: inline;
+	width: 15em;
+}
+
+.location input{
+	width: 12em;
+	margin-right: 3em;
+}
+
+/* custom checkbox */
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"] + label:before {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	content: "";
+	background: url('../../images/checkbox.png') no-repeat center center;
+	background-size: 20px;
+}
+
+
+input[type="checkbox"]:checked + label:before {
+	background: url('../../images/checkbox_checked.png') no-repeat center center;
+	background-size: 20px;
+}

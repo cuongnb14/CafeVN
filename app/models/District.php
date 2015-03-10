@@ -3,9 +3,15 @@ class District extends Eloquent{
 
 	protected $table = 'districts';
 
-	public function Province(){
+	public function province(){
         return $this->belongsTo('Province');
     }
+
+    //one to many
+    public function places(){
+        return $this->hasMany('Place');
+    }
+
     public static function getIdWith($distName, $provinceName){
     	$pro = DB::table('provinces')->where('name', '=', $provinceName)->get();
     	if(empty($pro[0])) return 221;

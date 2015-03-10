@@ -35,6 +35,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Custom css -->
+    <link href="{{asset('public/assets/admin/css/custom.css')}}" rel="stylesheet">
+
 </head>
 
 <body>
@@ -250,12 +253,10 @@
                         <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        <li><a href="{{URL::route('ad_user_setting')}}"><i class="fa fa-user fa-fw"></i> Thiết lập tài khoản</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="{{URL::route('ad_logout')}}"><i class="fa fa-sign-out fa-fw"></i>Đăng xuất</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -285,10 +286,10 @@
                             <a href="#"><i class="fa fa-coffee"></i> Quán Cafe<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="#"><i class="fa fa-list"></i> Quán của bạn</a>
+                                    <a href="{{URL::route('ad_list_store')}}"><i class="fa fa-list"></i> Quán của bạn</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-plus-circle"></i> Thêm quán mới</a>
+                                    <a href="{{URL::route('ad_store_add')}}"><i class="fa fa-plus-circle"></i> Thêm quán mới</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -404,6 +405,8 @@
 
     <!-- Custom Theme JavaScript -->
 	<script src="{{asset('public/assets/admin/dist/js/sb-admin-2.js')}}"></script>
+    <!-- Custom JavaScript -->
+    <script src="{{asset('public/assets/admin/js/custom.js')}}"></script>
 </body>
 
 </html>

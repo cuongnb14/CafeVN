@@ -12,6 +12,10 @@ use Illuminate\Support\Facades\Redirect;
 | and give it the Closure to execute when that URI is requested.
 |
 */
+Route::get('/test', array('as' => 'test', function(){
+	echo CfHelper::getAddress(1);
+}));
+
 
 Route::get('/', array('as' => 'home', 'uses' => 'PublicHomeController@index'));
 
@@ -33,25 +37,81 @@ Route::post('/dang-ki', array('as' => 'post_register', function(){
 	return View::make("admin.register");
 }));
 
-Route::group(array('prefix' => 'admin'), function(){
+Route::filter('is_logined', function(){
+    if ( Session::get('logined', "false") != "true"){
+        return View::make('admin.login');
+    }
+});
+
+Route::post('admin/login', array('as' => 'post_login', function(){
+	$username = Input::get("username");
+	$password = Input::get("password");
+	if(User::checkLogin($username, $password)){
+		Session::put("logined", "true");
+		$user = User::where('username','=',$username)->first();
+		Session::put('user', $user);
+		return Redirect::route("ad_index");
+	} else {
+		return Redirect::route("ad_login")->with("error", "Tên đăng nhập hoặc mật khẩu không đúng!");
+	}
+}));
+
+Route::group(array('prefix' => 'admin', 'before' => 'is_logined'), function(){
 		Route::get('/login', array('as' => 'ad_login', function(){
 			return View::make('admin.login');
 		}));
-		
-		Route::post('/login', array('as' => 'post_login', function(){
-			$username = Input::get("username");
-			$password = Input::get("password");
-			if(User::checkLogin($username, $password)){
-				Session::put("logined", "true");
-				return Redirect::route("ad_index");
-			} else {
-				return Redirect::route("ad_login")->with("error", "Tên đăng nhập hoặc mật khẩu không đúng!");
-			}
+
+		Route::get('/logout', array('as' => 'ad_logout', function(){
+			Session::put("logined", "false");
+			return Redirect::route("ad_login");
 		}));
 		
 		Route::get('/index', array('as' => 'ad_index', function(){
 			return View::make('admin.index');
 		}));
+
+		Route::group(array('prefix' => 'store'), function(){
+			Route::get('/index', array('as' => 'ad_store_index', 'uses' => 'AdminStoreController@index'));
+			Route::get('/list-store', array('as' => 'ad_list_store', 'uses' => 'AdminStoreController@listStore'));
+			Route::get('/update-store/{id}', array('as' => 'ad_update_store', 'uses' => 'AdminStoreController@updateStore'));
+			Route::get('/add', array('as' => 'ad_store_add', 'uses' => 'AdminStoreController@addStore'));
+			Route::post('/add', array('as' => 'ad_post_store_add', 'uses' => 'AdminStoreController@postAddStore'));
+		});
+
+		Route::group(array('prefix' => 'user'), function(){
+			Route::get('/setting', array('as' => 'ad_user_setting', 'uses' => 'AdminUserController@setting'));
+			Route::post('/setting', array('as' => 'ad_post_user_setting', 'uses' => 'AdminUserController@postSetting'));
+		});
+
+		Route::group(array('prefix' => 'ajax'), function(){
+			Route::post('/quan-huyen', function(){
+				$province_id = Input::get('province_id');
+				$districts = Province::find($province_id)->districts;
+				$data['districts'] = $districts;
+				return View::make('admin.store.ajax_quan_huyen',$data);
+			});
+
+			Route::post('/delete-place', function(){
+				$place_id = Input::get('id');
+				if(Place::find($place_id)->user_id != Session::get('user')->id) return 0;
+				$name = Place::find($place_id)->name;
+
+				PlaceService::where('place_id','=',$place_id)->delete();
+				PlacePurport::where('place_id','=',$place_id)->delete();
+				$affectedRows = Place::where('id','=',$place_id)->where('user_id','=',Session::get('user')->id)->delete();
+				if($affectedRows > 0){
+					echo '<div class="alert alert-success alert-dismissable">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                Đã xóa địa điểm '.$name.'
+                            </div>';
+				} else {
+					echo '<div class="alert alert-success alert-dismissable">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                Lỗi: Xóa quán '.$name.' không thành công!
+                                </div>';
+				}
+			});
+		});
 
 });
 
@@ -87,23 +147,23 @@ Route::group(array('prefix' => 'ajax'), function(){
 	
 	Route::post('/quan-huyen', function(){
 		$province_id = Input::get('province_id');
-		$districts = $districts = Province::find($province_id)->districts;
+		$districts = Province::find($province_id)->districts;
 		$data['districts'] = $districts;
 		return View::make('public.store.ajax_quan_huyen',$data);
 	});
 	
 });
 
-Route::get('/test', function(){
-		$places = new Place;
+// Route::get('/test', function(){
+// 		$places = new Place;
 	
-			$districts = array(1);
-			$places = $places->whereIn('district_id',array('1'));
+// 			$districts = array(1);
+// 			$places = $places->whereIn('district_id',array('1'));
 	
 		
-		$places = $places->get()->toArray();
-		dd($places);
-});
+// 		$places = $places->get()->toArray();
+// 		dd($places);
+// });
 
 Route::filter('addAsset', function(){
 	echo '<meta charset="UTF-8">';

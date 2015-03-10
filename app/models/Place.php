@@ -11,4 +11,8 @@ class Place extends Eloquent{
 	public function purports(){
         return $this->belongsToMany('Purport','places_purports');
     }
+    //Many to one
+	public function district(){
+         return $this->belongsTo('District');
+    }
 }
