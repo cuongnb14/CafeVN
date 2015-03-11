@@ -67,116 +67,132 @@
 </div>
 <!-- /.row -->
 <div class="row main-content">
-<form method="post" action="{{URL::route('ad_post_store_add')}}">
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Thông tin quán</h3>
-  </div>
-  <div class="panel-body">
-  
-	    <div class="row cf-input">
-	    	<label>Tên quán: </label><input id="name" name="name" type="text" class="form-control input-sm" >
-	    </div>
+	<form method="post" action="{{URL::route('ad_post_store_add')}}" enctype="multipart/form-data">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Thông tin quán</h3>
+			</div>
+			<div class="panel-body">
+                
+				<div class="row cf-input">
+					<label>Tên quán: </label><input id="name" name="name" type="text"
+						class="form-control input-sm">
+				</div>
+				
+				<div class="row cf-input">
+					<label>Icon: </label><input class="form-control input-sm" type="file" id="icon" name="icon">
+				</div>
 
-	    <div class="row cf-input location">
-	    	<label>Latitude: </label><input id="lat" name="lat" type="text" class="form-control input-sm" >
-	    	<label>Longitude: </label><input id="long" name="long" type="text" class="form-control input-sm" >
-                            <!-- Button trigger modal -->
-                            <a class="btn btn-primary btn-sm"  onclick="javascript:showMap()">
-                            	<i class="fa fa-map-marker fa-2x"></i>
-                            </a>
-                            <!-- Modal -->
-                            <div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                            <h4 class="modal-title" id="myModalLabel">Chọn vị trí quán của bạn</h4>
-                                        </div>
-                                        <div  id="map-canvas" style="width: 100%; height: 480px;"></div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">Hủy bỏ</button>
-                                            <button type="button" class="btn btn-primary" onclick="javascript:choseLocation()">Chọn địa điểm</button>
-                                        </div>
-                                    </div>
-                                    <!-- /.modal-content -->
-                                </div>
-                                <!-- /.modal-dialog -->
-                            </div>
-                            <!-- /.modal -->
- 
-	    </div>
+				<div class="row cf-input location">
+					<label>Latitude: </label><input id="lat" name="lat" type="text"
+						class="form-control input-sm"> <label>Longitude: </label><input
+						id="long" name="long" type="text" class="form-control input-sm">
+					<!-- Button trigger modal -->
+					<a class="btn btn-primary btn-sm" onclick="javascript:showMap()"> <i
+						class="fa fa-map-marker fa-2x"></i>
+					</a>
+					<!-- Modal -->
+					<div class="modal fade" id="map" tabindex="-1" role="dialog"
+						aria-labelledby="myModalLabel" aria-hidden="true"
+						style="display: none;">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal"
+										aria-hidden="true">×</button>
+									<h4 class="modal-title" id="myModalLabel">Chọn vị trí quán của
+										bạn</h4>
+								</div>
+								<div id="map-canvas" style="width: 100%; height: 480px;"></div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default"
+										data-dismiss="modal">Hủy bỏ</button>
+									<button type="button" class="btn btn-primary"
+										onclick="javascript:choseLocation()">Chọn địa điểm</button>
+								</div>
+							</div>
+							<!-- /.modal-content -->
+						</div>
+						<!-- /.modal-dialog -->
+					</div>
+					<!-- /.modal -->
 
-	    <div class="row cf-input">
-	    	<label>Tỉnh/Thành: </label>
-			<select id="province" name="province" class="form-control" onchange="javascript:getDistricts()">
-				<option value="0">Chọn tỉnh/thành</option>
-				@foreach($provinces as $province)
-					<option value="{{$province->id}}">{{$province->name}}</option>
-				@endforeach
-			</select>
+				</div>
 
-	    </div>
+				<div class="row cf-input">
+					<label>Tỉnh/Thành: </label> <select id="province" name="province"
+						class="form-control" onchange="javascript:getDistricts()">
+						<option value="0">Chọn tỉnh/thành</option> @foreach($provinces as
+						$province)
+						<option value="{{$province->id}}">{{$province->name}}</option>
+						@endforeach
+					</select>
 
-	    <div class="row cf-input">
-	    	<label>Quận/Huyện: </label>
-	    	<select id="district" name="district" class="form-control">
-				<option>Chọn quận/huyện</option>
-			</select>
-	    </div>
+				</div>
 
-	    <div class="row cf-input">
-	    	<label>Đường phố: </label><input name="street" id="street" type="text" class="form-control input-sm" >
-	    </div>
-	    
-	    
-	    <div class="row cf-input">
-	    	<label>Quốc gia: </label><input id="region" name="region" type="text" class="form-control input-sm" value="Việt Nam">
-	    </div>
+				<div class="row cf-input">
+					<label>Quận/Huyện: </label> <select id="district" name="district"
+						class="form-control">
+						<option>Chọn quận/huyện</option>
+					</select>
+				</div>
 
-	    <div class="row cf-input">
-	    	<label>Giới thiệu: </label>
-	    	<textarea class="form-control" id="introduce" name="introduce"></textarea>
-	    </div>
-  </div>
-</div>
+				<div class="row cf-input">
+					<label>Đường phố: </label><input name="street" id="street"
+						type="text" class="form-control input-sm">
+				</div>
 
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Mục đích phù hợp</h3>
-  </div>
-  <div class="panel-body">
-	  <ul class="list-unstyled">
+				<div class="row cf-input">
+					<label>Quốc gia: </label><input id="region" name="region"
+						type="text" class="form-control input-sm" value="Việt Nam">
+				</div>
+
+				<div class="row cf-input">
+					<label>Giới thiệu: </label>
+					<textarea class="form-control" id="introduce" name="introduce"></textarea>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Mục đích phù hợp</h3>
+			</div>
+			<div class="panel-body">
+				<ul class="list-unstyled">
 					@foreach($purports as $purport)
-					<li class="col-md-4"><input  type="checkbox" name="purport[]"
+					<li class="col-md-4"><input type="checkbox" name="purport[]"
 						value="{{$purport->id}}" id="p{{$purport->id}}"> <label
 						for="p{{$purport->id}}"> {{$purport->name}}</label></li>
 					@endforeach
-		</ul>
-  </div>
-</div>
+				</ul>
+			</div>
+		</div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Dịch vụ</h3>
-  </div>
-  <div class="panel-body">
-	  <ul class="list-unstyled">
-				@foreach($services as $service)
-				<li class="col-md-4"><input type="checkbox" name="service[]"
-					value="{{$service->id}}" id="s{{$service->id}}"> <label
-					for="s{{$service->id}}"> {{$service->name}}</label></li>
-				@endforeach
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Dịch vụ</h3>
+			</div>
+			<div class="panel-body">
+				<ul class="list-unstyled">
+					@foreach($services as $service)
+					<li class="col-md-4"><input type="checkbox" name="service[]"
+						value="{{$service->id}}" id="s{{$service->id}}"> <label
+						for="s{{$service->id}}"> {{$service->name}}</label></li>
+					@endforeach
 
 
-			</ul>
-  </div>
-</div>
-<div class="row cf-input">
-	    	<a class="btn btn-default">Hủy bỏ</a>
-	    	<button class="btn btn-default" type="submit">Tạo quán</button>
-	    </div>
-</form>
+				</ul>
+			</div>
+		</div>
+
+
+		<div class="row cf-input">
+			<a class="btn btn-default">Hủy bỏ</a>
+			<button class="btn btn-default" type="submit">Tạo quán</button>
+		</div>
+	</form>
 </div>
 @stop

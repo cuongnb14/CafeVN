@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Redirect;
 |
 */
 Route::get('/test', array('as' => 'test', function(){
-	echo CfHelper::getAddress(1);
+	echo base_url();
 }));
 
 
@@ -76,6 +76,7 @@ Route::group(array('prefix' => 'admin', 'before' => 'is_logined'), function(){
 			Route::get('/update-store/{id}', array('as' => 'ad_update_store', 'uses' => 'AdminStoreController@updateStore'));
 			Route::get('/add', array('as' => 'ad_store_add', 'uses' => 'AdminStoreController@addStore'));
 			Route::post('/add', array('as' => 'ad_post_store_add', 'uses' => 'AdminStoreController@postAddStore'));
+			Route::post('/update-store', array('as' => 'ad_post_store_update', 'uses' => 'AdminStoreController@postUpdateStore'));
 		});
 
 		Route::group(array('prefix' => 'user'), function(){
@@ -99,6 +100,11 @@ Route::group(array('prefix' => 'admin', 'before' => 'is_logined'), function(){
 				PlaceService::where('place_id','=',$place_id)->delete();
 				PlacePurport::where('place_id','=',$place_id)->delete();
 				$affectedRows = Place::where('id','=',$place_id)->where('user_id','=',Session::get('user')->id)->delete();
+				
+				if (file_exists(CfHelper::getUrlPlaceIcon()."cf-".$place_id.".jpg")){
+				    unlink(CfHelper::getUrlPlaceIcon()."cf-".$place_id.".jpg");
+				}
+				
 				if($affectedRows > 0){
 					echo '<div class="alert alert-success alert-dismissable">
                                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
