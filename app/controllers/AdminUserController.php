@@ -22,5 +22,11 @@ class AdminUserController extends BaseController {
 		return Redirect::route('ad_user_setting')->with('alert',"Cập nhật thành công");
 	}
 
+    public function managerUser(){
+        $data['users'] = User::all();
+       // echo 1;
+        return View::make("admin.user.manager_user",$data);
+    }
+
 }
 ?>

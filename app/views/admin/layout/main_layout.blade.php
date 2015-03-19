@@ -110,10 +110,16 @@
 										class="fa fa-plus-circle"></i> Thêm quán mới</a></li>
 							</ul> <!-- /.nav-second-level --></li>
 
-						<li><a href="#"><i class="fa fa-table fa-fw"></i> Groups</a></li>
+						<li><a href="{{URL::route('ad_user_setting')}}"><i class="fa fa-user fa-fw"></i>Thiết lập tài khoản</a></li>
 
-						<li><a href="forms.html"><i class="fa fa-edit fa-fw"></i> User</a>
-						</li>
+                        <li><a href="{{URL::route('sad_manager_user')}}"><i class="fa fa-edit"></i> Quản lí người dùng<span
+                                    class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li><a href="{{URL::route('sad_manager_user')}}"><i
+                                            class="fa fa-list"></i> Tất cả người dùng</a></li>
+                                <li><a href="{{URL::route('ad_store_add')}}"><i
+                                            class="fa fa-plus-circle"></i> Thêm tài khoản mới</a></li>
+                            </ul> <!-- /.nav-second-level --></li>
 
 						<li><a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span
 								class="fa arrow"></span></a>

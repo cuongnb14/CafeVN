@@ -51,6 +51,10 @@ class CfHelper
      */
     
     public static function getUrlPlaceIcon(){
-        return asset("public/assets/mutidata/avatar_cafe/");
+        return base_path() . "/public/assets/mutidata/avatar_cafe/";
+    }
+
+    public static function getUrlImage($id){
+        return asset('/public/assets/mutidata/avatar_cafe/cf-'.$id.'.jpg');
     }
 }

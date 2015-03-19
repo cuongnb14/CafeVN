@@ -104,6 +104,11 @@ class AdminStoreController extends BaseController {
 	        $place_service->service_id = $service_id;
 	        $place_service->save();
 	    }
+
+        if(isset($_FILES['icon']) && $_FILES['icon']['error'] == 0){
+            echo "doi icon";
+            move_uploaded_file($_FILES["icon"]["tmp_name"],CfHelper::getUrlPlaceIcon() . "cf-".$place->id.".jpg");
+        }
 	    return Redirect::route("ad_list_store");
 	}
 

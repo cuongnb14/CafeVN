@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Redirect;
 |
 */
 Route::get('/test', array('as' => 'test', function(){
-	echo base_url();
+	echo base_path();
 }));
 
 
@@ -83,6 +83,18 @@ Route::group(array('prefix' => 'admin', 'before' => 'is_logined'), function(){
 			Route::get('/setting', array('as' => 'ad_user_setting', 'uses' => 'AdminUserController@setting'));
 			Route::post('/setting', array('as' => 'ad_post_user_setting', 'uses' => 'AdminUserController@postSetting'));
 		});
+        // ***************************** SUPER ADMIN **************************************************//
+        Route::filter('is_superadmin', function(){
+            if(Session::get('user')->group_id != 1){
+                return "Error: acess denail!!!";
+            }
+        });
+
+        Route::group(array('prefix' => 'super-admin','before' => 'is_superadmin'),  function(){
+            Route::get('/manager-user', array('as' => 'sad_manager_user', 'uses' => 'AdminUserController@managerUser'));
+        });
+
+        //***************************** AJAX *******************************//
 
 		Route::group(array('prefix' => 'ajax'), function(){
 			Route::post('/quan-huyen', function(){

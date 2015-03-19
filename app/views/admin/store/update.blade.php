@@ -69,9 +69,14 @@
 					<input value="{{$place->id}}" id="id"
 						name="id" type="hidden" class="form-control input-sm">
 				</div>
+                
+                <div class="thumnail">
+                    <img src="{{CfHelper::getUrlImage($place->id)}}">
+                </div>
+                  
 				
 				<div class="row cf-input">
-					<label>Icon: </label><input class="form-control input-sm" type="file" id="exampleInputFile">
+					<label>Thay icon mới: </label><input name="icon" class="form-control input-sm" type="file" id="icon">
 				</div>
                 
 				<div class="row cf-input">
