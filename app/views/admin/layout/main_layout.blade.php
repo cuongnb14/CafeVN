@@ -101,6 +101,7 @@
 						</li>
 						<li><a href="{{URL::route('ad_index')}}"><i class="fa fa-dashboard fa-fw"></i>
 								Dashboard</a></li>
+								<li><a href="{{URL::route('ad_user_setting')}}"><i class="fa fa-user fa-fw"></i>Thiết lập tài khoản</a></li>
 						<li><a href="#"><i class="fa fa-coffee"></i> Quán Cafe<span
 								class="fa arrow"></span></a>
 							<ul class="nav nav-second-level">
@@ -110,46 +111,18 @@
 										class="fa fa-plus-circle"></i> Thêm quán mới</a></li>
 							</ul> <!-- /.nav-second-level --></li>
 
-						<li><a href="{{URL::route('ad_user_setting')}}"><i class="fa fa-user fa-fw"></i>Thiết lập tài khoản</a></li>
+						
 
                         <li><a href="{{URL::route('sad_manager_user')}}"><i class="fa fa-edit"></i> Quản lí người dùng<span
                                     class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li><a href="{{URL::route('sad_manager_user')}}"><i
                                             class="fa fa-list"></i> Tất cả người dùng</a></li>
-                                <li><a href="{{URL::route('ad_store_add')}}"><i
+                                <li><a href="{{URL::route('sad_add_user')}}"><i
                                             class="fa fa-plus-circle"></i> Thêm tài khoản mới</a></li>
+                                <li><a href="{{URL::route('sad_change_padrones')}}"><i
+                                            class="fa fa-arrows-h"></i> Chuyển quyền sở hữu quán</a></li>
                             </ul> <!-- /.nav-second-level --></li>
-
-						<li><a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span
-								class="fa arrow"></span></a>
-							<ul class="nav nav-second-level">
-								<li><a href="panels-wells.html">Panels and Wells</a></li>
-								<li><a href="buttons.html">Buttons</a></li>
-								<li><a href="notifications.html">Notifications</a></li>
-								<li><a href="typography.html">Typography</a></li>
-								<li><a href="icons.html"> Icons</a></li>
-								<li><a href="grid.html">Grid</a></li>
-							</ul> <!-- /.nav-second-level --></li>
-						<li><a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level
-								Dropdown<span class="fa arrow"></span></a>
-							<ul class="nav nav-second-level">
-								<li><a href="#">Second Level Item</a></li>
-								<li><a href="#">Second Level Item</a></li>
-								<li><a href="#">Third Level <span class="fa arrow"></span></a>
-									<ul class="nav nav-third-level">
-										<li><a href="#">Third Level Item</a></li>
-										<li><a href="#">Third Level Item</a></li>
-										<li><a href="#">Third Level Item</a></li>
-										<li><a href="#">Third Level Item</a></li>
-									</ul> <!-- /.nav-third-level --></li>
-							</ul> <!-- /.nav-second-level --></li>
-						<li><a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span
-								class="fa arrow"></span></a>
-							<ul class="nav nav-second-level">
-								<li><a href="blank.html">Blank Page</a></li>
-								<li><a href="login.html">Login Page</a></li>
-							</ul> <!-- /.nav-second-level --></li>
 					</ul>
 				</div>
 				<!-- /.sidebar-collapse -->

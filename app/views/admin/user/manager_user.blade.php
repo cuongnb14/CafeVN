@@ -33,7 +33,7 @@
         <td>{{$user->email}}</td>
         <td>{{$user->group_id}}</td>
         <td>{{$user->created_at}}</td>
-        <td><a href="javascript:deletePlace()" class="btn btn-default">Xóa</a></td>
+        <td><a href="javascript:deleteUser({{$user->id}})" class="btn btn-default">Xóa</a></td>
     </tr>
     @endforeach
     </tbody>

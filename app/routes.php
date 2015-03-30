@@ -12,8 +12,10 @@ use Illuminate\Support\Facades\Redirect;
 | and give it the Closure to execute when that URI is requested.
 |
 */
+
+
 Route::get('/test', array('as' => 'test', function(){
-	echo base_path();
+	
 }));
 
 
@@ -92,7 +94,16 @@ Route::group(array('prefix' => 'admin', 'before' => 'is_logined'), function(){
 
         Route::group(array('prefix' => 'super-admin','before' => 'is_superadmin'),  function(){
             Route::get('/manager-user', array('as' => 'sad_manager_user', 'uses' => 'AdminUserController@managerUser'));
+            Route::get('add-user', array('as' => 'sad_add_user', 'uses' => 'AdminUserController@addUser'));
+            Route::post('add-user', array('as' => 'sad_post_add_user', 'uses' => 'AdminUserController@postAddUser'));
+            Route::get('/change-padrones', array('as' => 'sad_change_padrones', function(){
+            		$data['places'] = Place::all();
+            		return View::make("admin.user.list_store", $data);
+            }));
+
         });
+
+
 
         //***************************** AJAX *******************************//
 
@@ -129,6 +140,50 @@ Route::group(array('prefix' => 'admin', 'before' => 'is_logined'), function(){
                                 </div>';
 				}
 			});
+
+			Route::post('/delete-user', function(){
+				$user_id = Input::get('id');
+				if(Session::get('user')->group_id != 1) return "Error!";
+				if(Place::where('user_id','=',$user_id)->count() >0){
+					User::find($user_id)->delete();
+					echo '<div class="alert alert-success alert-dismissable">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                Xóa người dùng thành công. Chú ý người còn sở hữu một số quán!
+                                </div>';
+				} else {
+					User::find($user_id)->delete();
+					echo '<div class="alert alert-success alert-dismissable">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                Xóa người dùng thành công!
+                                </div>';
+				}
+
+			});
+
+			Route::post('/change-user', function(){
+				$place_id = Input::get('place_id');
+				$user_id = Input::get('user_id');
+
+				if(Session::get('user')->group_id != 1) return "Error!";
+
+				if(User::find($user_id) == null){
+					echo '<div class="alert alert-success alert-dismissable">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                Người dùng không tồn tại
+                                </div>';
+				} else {
+					$place = Place::find($place_id);
+					$place->user_id = $user_id;
+					$place->save();
+					echo '<div class="alert alert-success alert-dismissable">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                Đổi chủ quán thành công!
+                                </div>';
+				}
+
+			});
+				
+			
 		});
 
 });

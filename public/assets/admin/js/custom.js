@@ -28,3 +28,26 @@ function deletePlace(id){
 		
 		});
 }
+
+function deleteUser(id){
+	var data = {
+			'id': id	
+	};
+	$.post('/Cafevn/admin/ajax/delete-user?t='+Math.random(), data, function(data, status){
+		
+				$('#notification').html(data);
+				$("#p-"+id).remove();
+		
+		});
+}
+
+function changeUser(place_id){
+	user_id = $('#new-'+place_id).val();
+	var data = {
+			'place_id': place_id,
+			'user_id': user_id
+	};
+	$.post('/Cafevn/admin/ajax/change-user?t='+Math.random(), data, function(data, status){
+				$('#notification').html(data);
+		});
+}

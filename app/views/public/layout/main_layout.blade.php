@@ -30,9 +30,9 @@
 						<a href="{{URL::route('home')}}" ><img alt="Cafe Garden" src="{{asset('/public/assets/images/logo.png')}}" /></a>
 					</div>
 					<div class="search-box col-md-8">
-                        <form>
-                            <input type="text" name="" class="finput" placeholder=" Tên quán">
-                            <input type="text" name="" class="finput" placeholder=" Địa điểm">
+                        <form action="{{URL::route('quan_cafes')}}" method="get">
+                            <input type="text" name="ten-quan" class="finput" placeholder=" Tên quán">
+                           <!--  <input type="text" name="" class="finput" placeholder=" Địa điểm"> -->
                             <button type="submit" class="btn btn-info">Tìm kiếm</button>
                         </form>
                     </div>

@@ -2,8 +2,34 @@
 class PublicStoreController extends BaseController {
     
 	public function index(){
-		$places = Place::paginate(20);
-		$places->setBaseUrl('/Cafevn/ajax/tim-kiem');
+		$places = null;
+		if(isset($_GET['ten-quan']) && $_GET['ten-quan'] != ""){
+			$result = array();
+			$allPlaces = Place::all();
+			$keySearch = CfHelper::utf8ToAscii($_GET['ten-quan']);
+			foreach ($allPlaces as $key => $place) {
+				if( ($s = CfHelper::similarity(CfHelper::utf8ToAscii($place->name), $keySearch)) > 0.5)
+					$result[$key] = $s;
+			}
+			if(!empty($result)){
+				arsort($result);
+				$places = array();
+				foreach ($result as $key => $place) {
+					$places[] = $allPlaces[$key];
+				}
+				$data['paginate'] = false;
+				//$places = array_keys($result);
+				//$places = Place::whereIn('id', $result)->paginate(20);
+			
+			}
+			
+
+		} else {
+			$places = Place::paginate(20);
+			$places->setBaseUrl('/Cafevn/ajax/tim-kiem');
+			$data['paginate'] = true;
+		}
+		
 		$data['places'] = $places;
 		$data['services'] = Service::all();
 		$data['purports'] = Purport::all();
