@@ -44,6 +44,11 @@
                         <h3 class="panel-title">Đăng kí tài khoản</h3>
                     </div>
                     <div class="panel-body">
+                    @if(Session::has("error"))
+                                	<div class="alert alert-danger">
+		                                {{Session::get("error")}}
+		                            </div>
+                                @endif
                         <form id="form-login" role="form" method="post" action="{{URL::route('post_register')}}">
                             <fieldset>
                             	<div class="form-group">
@@ -72,7 +77,7 @@
                                 
            
                                 <!-- Change this to a button or input when using this as a form -->
-                                <input type="submit" class="btn btn-lg btn-success btn-block"  value="Đăng nhập" >
+                                <input type="submit" class="btn btn-lg btn-success btn-block"  value="Đăng kí" >
                             </fieldset>
                         </form>
                     </div>
@@ -128,7 +133,7 @@
 				},
 				password_confirm: {
 					required: "Vui lòng nhập lại mật khẩu của bạn",
-					minlength: "Mật khẩu phải có ít nhất 6 kí tự "
+					equalTo: "Mật khẩu không khớp"
 				},
 				email: {
 					required: "Vui lòng nhập email của bạn",

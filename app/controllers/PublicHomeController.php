@@ -2,7 +2,7 @@
 class PublicHomeController extends BaseController {
     
 	public function index(){
-		$places = Place::paginate(6);
+		$places = Place::orderBy('updated_at','desc')->take(10)->get();
 		$data['services'] = Service::all();
 		$data['purports'] = Purport::all();
 		$data['provinces'] = Province::all();

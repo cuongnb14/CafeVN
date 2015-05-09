@@ -3,7 +3,7 @@ class AdminStoreController extends BaseController {
     
 	public function index(){
 		$user = Session::get('user');
-		$places = Place::where('user_id','=',$user->id)->get();
+		$places = Place::where('user_id','=',$user->id)->orderBy('updated_at','desc')->get();
 		dd($places->count());
 		$data['services'] = Service::all();
 		
@@ -12,7 +12,7 @@ class AdminStoreController extends BaseController {
 
 	public function listStore(){
 		$user = Session::get('user');
-		$data['places'] = Place::where('user_id','=',$user->id)->get();
+		$data['places'] = Place::where('user_id','=',$user->id)->orderBy('updated_at','desc')->get();
 		return View::make("admin.store.list_store", $data);
 	}
 

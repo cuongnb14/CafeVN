@@ -23,6 +23,7 @@
 					<ul class="pull-right list-inline list-unstyled"> 
 						<li><a href="">Liên hệ</a></li>
 						<li><a href="">Thông tin</a></li> 
+						<li><a href="{{URL::route('ad_register')}}">Đăng kí</a></li> 
 					</ul>
 				</div>
 				<div class="header container-fluid">
@@ -49,7 +50,12 @@
 			
 			
 			<div class="footer">
-				Design by bacuong
+				<div>
+					<h4>CafeGarden</h4>
+					Design by bacuong, 2014
+
+				</div>
+				
 			</div>
 		</div>
 		<!-- End .page -->

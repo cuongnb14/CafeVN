@@ -36,7 +36,22 @@ Route::get('/dang-ki', array('as' => 'ad_register', function(){
 }));
 
 Route::post('/dang-ki', array('as' => 'post_register', function(){
-	return View::make("admin.register");
+	$user = new User;
+	$user->group_id = 2;
+	$user->username = Input::get('username');
+	if(!User::isAvalibleUser(Input::get('username'))){
+		$user->password = md5(Input::get('password'));
+		$user->fullname = Input::get('fullname');
+		$user->phone = Input::get('phone');
+		$user->email = Input::get('email');
+		$user->save();
+		return Redirect::route("ad_login")->with("msg", "Đăng kí thành công!");
+	} else {
+		return Redirect::route("ad_register")->with("error", "Lỗi: Tài khoản đã tồn tại!");
+	}
+	
+
+
 }));
 
 Route::filter('is_logined', function(){

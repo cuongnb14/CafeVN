@@ -41,6 +41,11 @@
                         <h3 class="panel-title">Please Sign In</h3>
                     </div>
                     <div class="panel-body">
+                    @if(Session::has("msg"))
+                                    <div class="alert alert-success">
+                                        {{Session::get("msg")}}
+                                    </div>
+                    @endif
                         <form id="form-login" role="form" method="post" action="{{URL::route('post_login')}}">
                             <fieldset>
                                 <div class="form-group">
@@ -54,12 +59,10 @@
 		                                {{Session::get("error")}}
 		                            </div>
                                 @endif
+
+
                                 
-                                <div class="checkbox">
-                                    <label>
-                                        <input name="remember" type="checkbox" value="Remember Me">Remember Me
-                                    </label>
-                                </div>
+                               
                                 <!-- Change this to a button or input when using this as a form -->
                                 <input type="submit" class="btn btn-lg btn-success btn-block"  value="Đăng nhập" >
                             </fieldset>
